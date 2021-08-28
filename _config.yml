@@ -105,7 +105,7 @@ theme: islu
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   - type: git
-    repo: git@github.com:username/username.git # 此处为共有仓库名
+    repo: even@121.4.48.188:/home/even/blog.git  # 此处为共有仓库名
     branch: master
 #  - type: baidu_url_submitter # 若开启百度主动提交则可取消注释
 
