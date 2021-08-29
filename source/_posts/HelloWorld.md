@@ -3,7 +3,7 @@ title: HelloWorld
 author: 周靖
 img: medias/featureimages/0.jpg
 top: false
-cover: true
+cover: false
 coverImg:
 toc: true
 mathjax: false
