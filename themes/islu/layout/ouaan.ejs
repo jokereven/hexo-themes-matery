@@ -1,0 +1,269 @@
+<!doctype html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Puzzle</title>
+</head>
+<style>
+  *{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+body{
+	width: 100%;
+	height: 100%;
+}
+#container{
+	position: relative;
+	width: 620px;
+	height: 450px;
+	margin: 0 auto;
+	margin-top: 100px;
+	border-radius: 1px;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
+#game{
+	position: absolute;
+	width: 450px;
+	height: 450px;
+	border-radius: 5px;
+	display: inline-block;
+	background-color: #ffe171;
+	box-shadow: 0 0 10px #ffe171;
+}
+#game div{
+	position: absolute;
+	width: 149px;
+	height: 149px;
+	box-shadow: 1px 1px 2px #777;
+	background-color: #20a6fa;
+	color: white;
+	text-align: center;
+	font-size: 150px;
+	line-height: 150px;
+	cursor: pointer;
+	-webkit-transition: 0.3s;
+	   -moz-transition: 0.3s;
+	    -ms-transition: 0.3s;
+	     -o-transition: 0.3s;
+	        transition: 0.3s;
+}
+#game div:hover{
+	color: #ffe171;
+}
+#control{
+	width: 150px;
+	height: 450px;
+	display: inline-block;
+	float:right;
+}
+#control rowspan{
+	height: 25px;
+	font-size: 20px;
+	color: #222;
+	margin-top: 10px;
+}
+#start{
+	display: inline-block;
+	font-size: 28px;
+	width: 100px;
+	height: 28px;
+	background-color: #20a6fa;
+	color: #ffe171;
+	text-shadow: 1px 1px 2px #ffe171;
+	border-radius: 5px;
+	box-shadow: 2px 2px 5px #4c98f5;
+	text-align: center;
+	cursor: pointer;
+}
+#reset{
+	display: inline-block;
+	font-size: 28px;
+	width: 100px;
+	height: 28px;
+	background-color: #20a6fa;
+	color: #ffe171;
+	text-shadow: 1px 1px 2px #ffe171;
+	border-radius: 5px;
+	box-shadow: 2px 2px 5px #4c98f5;
+	text-align: center;
+	cursor: pointer;
+}
+#d1{
+	left: 0px;
+}
+#d2{
+	left: 150px;
+}
+#d3{
+	left: 300px;
+}
+#d4{
+	top: 150px;
+}
+#d5{
+	top: 150px;
+	left: 150px;
+}
+#d6{
+	top: 150px;
+	left: 300px;
+}
+#d7{
+	top: 300px;
+}
+#d8{
+	left: 150px;
+	top: 300px;
+}
+.about-cover{height:100vh;width: 100vw;position:fixed;top:0;background-image:url('/medias/banner/categories.jpg');background-size: cover;}
+</style>
+<body>
+  <div class="about-cover"></div>
+  <div id="container">
+    <div id="game">
+      <div id="d1" onclick="move(1)">1</div>
+      <div id="d2" onclick="move(2)">2</div>
+      <div id="d3" onclick="move(3)">3</div>
+      <div id="d4" onclick="move(4)">4</div>
+      <div id="d5" onclick="move(5)">5</div>
+      <div id="d6" onclick="move(6)">6</div>
+      <div id="d7" onclick="move(7)">7</div>
+      <div id="d8" onclick="move(8)">8</div>
+    </div>
+    <div id="control">
+      <p>
+        <rowspan id="timeText">总用时</rowspan>
+        <rowspan id="timer"></rowspan>
+      </p>
+      <p>
+        <rowspan id="start" onclick="start()">开始</rowspan>
+        <rowspan id="reset" onclick="reset()">重来</rowspan>
+      </p>
+
+    </div>
+  </div>
+  <script>
+    var time = 0;
+      var pause = true;
+      var set_timer;
+      var d = new Array(10);
+      var d_direct = new Array(
+        [0],
+        [2, 4],
+        [1, 3, 5],
+        [2, 6],
+        [1, 5, 7],
+        [2, 4, 6, 8],
+        [3, 5, 9],
+        [4, 8],
+        [5, 7, 9],
+        [6, 8]
+      );
+      var d_posXY = new Array(
+        [0],
+        [0, 0],
+        [150, 0],
+        [300, 0],
+        [0, 150],
+        [150, 150],
+        [300, 150],
+        [0, 300],
+        [150, 300],
+        [300, 300]
+      );
+      d[1] = 1; d[2] = 2; d[3] = 3; d[4] = 4; d[5] = 5; d[6] = 6; d[7] = 7; d[8] = 8; d[9] = 0;
+      function move(id) {
+        var i = 1;
+        for (i = 1; i < 10; ++i) {
+          if (d[i] == id)
+            break;
+        }
+        var target_d = 0;
+        target_d = whereCanTo(i);
+        if (target_d != 0) {
+          d[i] = 0;
+          d[target_d] = id;
+          document.getElementById("d" + id).style.left = d_posXY[target_d][0] + "px";
+          document.getElementById("d" + id).style.top = d_posXY[target_d][1] + "px";
+        }
+        var finish_flag = true;
+        for (var k = 1; k < 9; ++k) {
+          if (d[k] != k) {
+            finish_flag = false;
+            break;
+          }
+        }
+        if (finish_flag == true) {
+          if (!pause)
+            start();
+          alert("congratulation");
+        }
+      }
+      function whereCanTo(cur_div) {
+        var j = 0;
+        var move_flag = false;
+        for (j = 0; j < d_direct[cur_div].length; ++j) {
+          if (d[d_direct[cur_div][j]] == 0) {
+            move_flag = true;
+            break;
+          }
+        }
+        if (move_flag == true) {
+          return d_direct[cur_div][j];
+        } else {
+          return 0;
+        }
+      }
+      function timer() {
+        time += 1;
+        var min = parseInt(time / 60);
+        var sec = time % 60;
+        document.getElementById("timer").innerHTML = min + "分" + sec + "秒";
+      }
+      function start() {
+        if (pause) {
+          document.getElementById("start").innerHTML = "暂停";
+          pause = false;
+          set_timer = setInterval(timer, 1000);
+        } else {
+          document.getElementById("start").innerHTML = "开始";
+          pause = true;
+          clearInterval(set_timer);
+        }
+      }
+      function reset() {
+        time = 0;
+        random_d();
+        if (pause)
+          start();
+      }
+      function random_d() {
+        for (var i = 9; i > 1; --i) {
+          var to = parseInt(Math.random() * (i - 1) + 1);
+          if (d[i] != 0) {
+            document.getElementById("d" + d[i]).style.left = d_posXY[to][0] + "px";
+            document.getElementById("d" + d[i]).style.top = d_posXY[to][1] + "px";
+          }
+          if (d[to] != 0) {
+            document.getElementById("d" + d[to]).style.left = d_posXY[i][0] + "px";
+            document.getElementById("d" + d[to]).style.top = d_posXY[i][1] + "px";
+          }
+          var tem = d[to];
+          d[to] = d[i];
+          d[i] = tem;
+        }
+      }
+      window.onload = function () {
+        reset();
+      }
+  </script>
+</body>
+
+</html>

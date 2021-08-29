@@ -53,6 +53,15 @@ menu:
       - name: 友链监测
         url: /supervise
         icon: fa fa-desktop
+  实验楼:
+    icon: fas fa-link
+    children:
+      - name: cmd
+        url: /cmd
+        icon: fas fa-terminal
+      - name: ouaan
+        url: /ouaan
+        icon: fas fa-gamepad
 
 # Website start time.
 # 站点运行开始时间.
