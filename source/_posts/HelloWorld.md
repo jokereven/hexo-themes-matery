@@ -2,8 +2,8 @@
 title: HelloWorld
 author: 周靖
 img: medias/featureimages/0.jpg
-top: false
-cover: false
+top: true
+cover: true
 coverImg:
 toc: true
 mathjax: false
@@ -17,7 +17,7 @@ date: 2021-08-28 14:07:18
 password: 周靖
 summary: HelloWorld
 ---
-
+友情声明: 本博客搭建基于[https://github.com/ialoe/hexo-themes-islu](https://github.com/ialoe/hexo-themes-islu)
 jokereven的创业计划
 GoReactTaro全栈程序员，持续分享编程干货
 技术栈：Golang、前端

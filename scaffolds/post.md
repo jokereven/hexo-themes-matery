@@ -13,7 +13,6 @@ summary: {{title}} # 这是你自定义的文章摘要内容，如果这个属�
 categories: {{title}} # 文章分类，本主题的分类表示宏观上大的分类，只建议一篇文章一个分类
 tags: # 文章标签，一篇文章可以多个标签
   - {{title}}
-  - {{title}}
 keywords: 周靖 # 关键词
 essay: false # 是否为随笔
 ---
