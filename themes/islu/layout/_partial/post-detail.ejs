@@ -90,13 +90,13 @@
                 let timeLag = document.getElementById("timeLag");
                 if (days <= 7) {
                     thisTime.classList.add("uk-alert-success");
-                    timeLag.innerText = ("该文章发布于" + days + "天前~热乎中~请放心食用");
+                    timeLag.innerText = ("该文章发布于" + days + "天前热乎中请放心食用");
                 } else if (7 < days && days <= 30) {
                     thisTime.classList.add("uk-alert-warning");
-                    timeLag.innerText = ("该文章发布于" + days + "天前~快凉了~请尽快食用");
+                    timeLag.innerText = ("该文章发布于" + days + "天前快凉了请尽快食用");
                 } else {
                     thisTime.classList.add("uk-alert-danger");
-                    timeLag.innerText = ("该文章发布于" + days + "天前~已经凉了~请加热后食用");
+                    timeLag.innerText = ("该文章发布于" + days + "天前已经凉了请加热后食用");
                 }
             </script>
         <% } %>
