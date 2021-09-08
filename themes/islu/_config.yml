@@ -141,11 +141,11 @@ music:
 # Whether to display the videos.
 # 是否在首页显示视频.
 video:
-  enable: false
+  enable: true
   showTitle: true # 是否显示title
   title: Love Me # title名
-  url: https://89dl0o1.cachenode.cn:1055/fseeca82d4.a.bdydns.com/1924164272/cloudmusic/e0c3/core/c425/a0ebb346a2820d30b614068c0faba244.mp4?wsSecret=4b53690cc5fa1aae7f31a48e9ecae2a4&wsTime=1630642490&http_cdnfrom=bdcloud&max_age=31104000&r=csLMxLOSlEBTC8LdFx2MzAZ5vxvlU2mip0JMw3pKvt7sDgzMd8uKTYNYCGch5Me%2F%2FIuVUAh4Isb0Z4IUUban53VnQsK4Yn9Z%2BkbgdX6x9wE57bYgGQnYwFkQs0aLCp8LQZ8yawurbdqb4QxDidtgwSRkGdq8paoc%2FMOHfh1RZDBWKiGjYvQyo8OKjIzdVLxQY24YQ98bwhi1s03vKswv6g%3D%3D&MqD7sp=l56Ml8Kdm4abkYygms-enJnJyJ7Knp3JyJrGm8jLz53NxpqZycrHxp3Lx83IzMicz83HxtmRkJuak4mTwsvZjZqOjI-bws3Nz9mMnIqWm8KQq6zLnZWtkaqQs7m6hb2NvZe4ttmck4yLkMLM2YaZkI-Lws7I2YuWkpqQiovCzsnMzM3My8rPydmcl5qclMLMy8_KyczKzcvZhpmbjI-Lws7JzM_Jy83Kz8nHzs3ZhpmPjZbCzs_P&UYs5cp=hpmMlJaPws7ZhpmNmo6Wm8K8u4uosZa5vYe-q7iXrIy-vobZhpmLi8LMz9mGmZeQjIvCzs3P0c3NydHOysvRzc_G2YaZi5aSmsLOyczPycvNys_Jx83J2YaZnJuRkI-Lws8~&sent_http_cdn-source=bdcloud&sent_http_access-control-allow-origin=*&sent_http_cdn-ip=111.48.50.35&sent_http_access-control-allow-credentials=true&sent_http_cdn-user-ip=117.151.151.36&sent_http_access-control-allow-methods=GET%2CPOST%2COPTIONS&sent_http_access-control-expose-headers=Content-Range%2C%20Last-Modified&sent_http_access-control-allow-headers=DNT%2CX-CustomHeader%2CKeep-Alive%2CUser-Agent%2CX-Requested-With%2CIf-Modified-Since%2CCache-Control%2CContent-Type%2CRange&sent_http_cache=state # 必填
-  pic: https://lh3.googleusercontent.com/proxy/U1jBQakQMm73aLly6WZJuzuSFncUXDcfmfNpA58rSjMRdJ75XYoGBNOD-1IwjjJTUxqVFm9MMG9Ol-tJktCE0bd_k2fPOR_jOLY3UJhuhnOVIolsEDYLl6-nuo3gFFmFPUIo-g
+  url: https://qsx2jpa6.v1d.szbdyd.com:9305/fseeca82d4.a.bdydns.com/1924164272/cloudmusic/e0c3/core/c425/a0ebb346a2820d30b614068c0faba244.mp4?wsSecret=6fafcf636dc290859a75a717818b274d&wsTime=1631111138&http_cdnfrom=bdcloud&max_age=31104000&r=csLMxLOSlEBTC8LdFx2MzAZ5vxvlU2mip0JMw3pKvt7sDgzMd8uKTYNYCGch5Me%2F%2FIuVUAh4Isb0Z4IUUban53VnQsK4Yn9Z%2BkbgdX6x9wE57bYgGQnYwFkQs0aLCp8Ls54YjaewZV3VNOzXGXAyKYWa%2Fug%2BTnsSVl7kD6Zq4LWS6Ja45lz%2FqGNhV5qxavKDsmi1TBqEYXA7cCpke7W3Bg%3D%3D&xyip=114.239.193.212&xyct=30&xysc=1&xy_rid=3CHvbNr42xTeJ8&sent_http_cdn-ip=111.174.1.35&sent_http_cdn-user-ip=171.113.222.194&sent_http_cache=state&sent_http_cdn-source=bdcloud&sent_http_access-control-expose-headers=Content-Range%2C%20Last-Modified&sent_http_access-control-allow-origin=*&sent_http_access-control-allow-credentials=true&sent_http_access-control-allow-methods=GET%2CPOST%2COPTIONS&sent_http_access-control-allow-headers=DNT%2CX-CustomHeader%2CKeep-Alive%2CUser-Agent%2CX-Requested-With%2CIf-Modified-Since%2CCache-Control%2CContent-Type%2CRange # 必填
+  pic: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTqBcjE_nPoAWUTxgmStu8zRATqdSmbFiAOw&usqp=CAU
   thumbnails:
   height: # 如：400
   autoplay: false # 是否自动播放
