@@ -22,7 +22,7 @@ jokereven的创业计划
 GoReactTaro全栈程序员，持续分享编程干货
 技术栈：Golang、前端
 干货公众号：JokerEven
-微信小程序: zhou125disorder
+微信小程序: JOKER EVEN
 GitHub：https://github.com/jokereven
 Gitee: https://gitee.com/jokereven
 我的个人博客：http://code520.com.cn
