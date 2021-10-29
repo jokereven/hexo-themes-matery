@@ -2,7 +2,7 @@
 title: Windows上Nginx的安装
 author: 周靖
 img: medias/featureimages/11.jpg
-top: true
+top: false
 cover: false
 toc: true
 mathjax: false

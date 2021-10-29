@@ -1,8 +1,8 @@
 ---
 title: essay-life
 img: /medias/article/essay-life.jpg
-top: true
-cover: true
+top: false
+cover: false
 toc: true
 mathjax: false
 categories: 随笔

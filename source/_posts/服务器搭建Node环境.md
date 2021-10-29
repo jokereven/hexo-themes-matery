@@ -2,7 +2,7 @@
 title: 服务器搭建Node环境
 author: 周靖
 img: medias/featureimages/3.jpg
-top: true
+top: false
 cover: false
 toc: true
 mathjax: false

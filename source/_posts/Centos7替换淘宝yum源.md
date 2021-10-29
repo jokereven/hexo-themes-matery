@@ -2,7 +2,7 @@
 title: Centos7替换淘宝yum源
 author: 周靖
 img: medias/featureimages/10.jpg
-top: true
+top: false
 cover: false
 toc: true
 mathjax: false

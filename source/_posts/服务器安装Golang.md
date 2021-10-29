@@ -2,7 +2,7 @@
 title: 服务器安装Golang
 author: 周靖
 img: medias/featureimages/1.jpg
-top: true
+top: false
 cover: false
 toc: true
 mathjax: false

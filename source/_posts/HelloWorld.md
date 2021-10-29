@@ -2,8 +2,8 @@
 title: HelloWorld
 author: 周靖
 img: medias/featureimages/0.jpg
-top: true
-cover: true
+top: false
+cover: false
 coverImg:
 toc: true
 mathjax: false
