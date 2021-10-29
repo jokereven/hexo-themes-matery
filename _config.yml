@@ -28,7 +28,7 @@ timezone: #时区，可以不填写
 
 # URL
 ## 在这里设置你的网站url。例如，如果你使用GitHub页面，设置url为"https://username.github.io/project"
-url: http://blog.code520.com.cn
+url: https://blog.code520.com.cn
 permalink: posts/:abbrlink.html
 permalink_defaults:
 pretty_urls:
