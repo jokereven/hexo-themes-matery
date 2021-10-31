@@ -1,7 +1,7 @@
 ---
 title: type
 author: 周靖
-img: medias/featureimages/23.jpg
+img: medias/featureimages/22.jpg
 top: false
 cover: false
 toc: true

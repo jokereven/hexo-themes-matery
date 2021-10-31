@@ -8,5 +8,5 @@ var spawn = require('child_process').exec;
 // Hexo 3 用户复制这段
 hexo.on('new', function (data) {
 	spawn('start  "Typora.exe" ' + data.path);
-	console.log(parseInt(Math.random() * 24) + 1);
+	console.log(parseInt(Math.random() * 23));
 });
