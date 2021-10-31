@@ -59,9 +59,6 @@ menu:
       - name: cmd
         url: /cmd
         icon: fas fa-terminal
-      - name: ouaan
-        url: /ouaan
-        icon: fas fa-gamepad
 
 # Website start time.
 # 站点运行开始时间.
