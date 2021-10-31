@@ -1,7 +1,7 @@
 ---
 title: Golang方法
 author: 周靖
-img: medias/featureimages/18.jpg
+img: medias/featureimages/22.jpg
 top: false
 cover: false
 toc: true

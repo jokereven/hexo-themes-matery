@@ -1,7 +1,7 @@
 ---
 title: Golang接口
 author: 周靖
-img: medias/featureimages/14.jpg
+img: medias/featureimages/12.jpg
 top: false
 cover: false
 toc: true

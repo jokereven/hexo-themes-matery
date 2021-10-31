@@ -1,7 +1,7 @@
 ---
 title: nginx搭建文件服务
 author: 周靖
-img: medias/featureimages/6.jpg
+img: medias/featureimages/24.jpg
 top: false
 cover: false
 toc: true

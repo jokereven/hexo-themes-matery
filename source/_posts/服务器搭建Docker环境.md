@@ -1,7 +1,7 @@
 ---
 title: 服务器搭建Docker环境
 author: 周靖
-img: medias/featureimages/2.jpg
+img: medias/featureimages/12.jpg
 top: true
 cover: false
 toc: true

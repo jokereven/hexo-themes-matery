@@ -1,7 +1,7 @@
 ---
 title: 一直启动Node服务
 author: 周靖
-img: medias/featureimages/12.jpg
+img: medias/featureimages/16.jpg
 top: false
 cover: false
 toc: true

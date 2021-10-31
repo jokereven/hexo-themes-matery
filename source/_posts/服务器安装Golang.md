@@ -1,7 +1,7 @@
 ---
 title: 服务器安装Golang
 author: 周靖
-img: medias/featureimages/1.jpg
+img: medias/featureimages/14.jpg
 top: false
 cover: false
 toc: true

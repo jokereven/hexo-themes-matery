@@ -1,7 +1,7 @@
 ---
 title: win10家庭版安装Docker
 author: 周靖
-img: medias/featureimages/4.jpg
+img: medias/featureimages/18.jpg
 top: false
 cover: false
 toc: true
@@ -48,7 +48,7 @@ REG ADD "HKEY_LOCAL_MACHINE\software\Microsoft\Windows NT\CurrentVersion"
 
 ### `三. 下载docker`
 
-​[Docker的下载](hub.docker.com)
+​[Docker 的下载](hub.docker.com)
 
 ### `四. 一步一步安装就好了`
 

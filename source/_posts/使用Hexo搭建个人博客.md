@@ -1,7 +1,7 @@
 ---
 title: 使用Hexo搭建个人博客
 author: 周靖
-img: medias/featureimages/6.jpg
+img: medias/featureimages/16.jpg
 top: true
 cover: false
 toc: true

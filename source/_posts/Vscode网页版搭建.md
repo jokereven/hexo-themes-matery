@@ -1,7 +1,7 @@
 ---
 title: Vscode网页版搭建
 author: 周靖
-img: medias/featureimages/5.jpg
+img: medias/featureimages/15.jpg
 top: true
 cover: false
 toc: true

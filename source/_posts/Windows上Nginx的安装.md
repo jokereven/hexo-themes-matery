@@ -1,7 +1,7 @@
 ---
 title: Windows上Nginx的安装
 author: 周靖
-img: medias/featureimages/11.jpg
+img: medias/featureimages/9.jpg
 top: false
 cover: false
 toc: true
@@ -21,4 +21,4 @@ password:
 
 ### `Windows上Nginx的安装`
 
-[Win10上Nginx的安装](https://blog.csdn.net/w8827130/article/details/89301258)
+[Win10 上 Nginx 的安装](https://blog.csdn.net/w8827130/article/details/89301258)

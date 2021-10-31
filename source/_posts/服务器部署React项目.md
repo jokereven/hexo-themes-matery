@@ -1,7 +1,7 @@
 ---
 title: 服务器部署React项目
 author: 周靖
-img: medias/featureimages/8.jpg
+img: medias/featureimages/7.jpg
 top: false
 cover: false
 toc: true

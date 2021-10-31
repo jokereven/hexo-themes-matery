@@ -1,7 +1,7 @@
 ---
 title: Golang结构体
 author: 周靖
-img: medias/featureimages/21.jpg
+img: medias/featureimages/18.jpg
 top: false
 cover: false
 toc: true

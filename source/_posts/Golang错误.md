@@ -1,7 +1,7 @@
 ---
 title: Golang错误
 author: 周靖
-img: medias/featureimages/8.jpg
+img: medias/featureimages/10.jpg
 top: false
 cover: false
 toc: true

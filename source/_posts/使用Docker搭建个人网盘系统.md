@@ -1,7 +1,7 @@
 ---
 title: 使用Docker搭建个人网盘系统
 author: 周靖
-img: medias/featureimages/7.jpg
+img: medias/featureimages/8.jpg
 top: true
 cover: false
 toc: true
