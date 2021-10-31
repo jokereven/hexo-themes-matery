@@ -1,16 +1,17 @@
 <link rel="stylesheet" href="<%- theme.jsDelivr.url %><%- url_for(theme.libs.css.dplayer) %>">
 <div class="video-player">
     <% if (theme.video.showTitle) { %>
-    <div class="title center-align">
-        <img src="https://files.islu.cn/detail/love.png" alt=""> 📺&nbsp;<%= theme.video.title %><img src="https://files.islu.cn/detail/love.png" alt="">
-    </div>
-    <% } %>
-    <div class="row">
-        <div class="col l8 offset-l2 m10 offset-m1 s12">
-            <div id="dplayer" class="dplayer-video"
-                    <% if (theme.video.height) { %> style="height: <%- theme.video.height %>px;"<% } %>></div>
+        <div class="title center-align">
+            <img src="/medias/love.png" alt=""> 📺&nbsp;<%= theme.video.title %>
+                <img src="/medias/love.png" alt="">
         </div>
-    </div>
+        <% } %>
+            <div class="row">
+                <div class="col l8 offset-l2 m10 offset-m1 s12">
+                    <div id="dplayer" class="dplayer-video" <% if (theme.video.height) { %> style="height: <%-
+                            theme.video.height %>px;"<% } %>></div>
+                </div>
+            </div>
 </div>
 
 <script src="<%- theme.jsDelivr.url %><%- url_for(theme.libs.js.dplayer) %>"></script>
