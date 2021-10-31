@@ -2,7 +2,7 @@
 title: {{ title }}
 date: {{ date }}
 author: 周靖 # 文章作者
-img: medias/featureimages/0.jpg    # 文章特征图
+img: medias/featureimages/.jpg    # 文章特征图
 top: false # 推荐文章（文章是否置顶），如果 top 值为 true，则会作为首页推荐文章
 cover: false    # 表示该文章是否需要加入到首页轮播封面中
 coverImg:     # 表示该文章在首页轮播封面需要显示的图片路径，如果没有，则默认使用文章的特色图片
