@@ -56,9 +56,12 @@ menu:
   实验楼:
     icon: fas fa-link
     children:
-      - name: cmd
+      - name: jquery.terminal
         url: /cmd
-        icon: fas fa-terminal
+        icon: fas fa-external-link-square-alt
+      - name: freelancer
+        url: /freelancer
+        icon: fab fa-freebsd
 
 # Website start time.
 # 站点运行开始时间.
