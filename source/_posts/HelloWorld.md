@@ -18,7 +18,7 @@ password: 周靖
 summary: HelloWorld
 ---
 友情声明: 本博客搭建基于[https://github.com/ialoe/hexo-themes-islu](https://github.com/ialoe/hexo-themes-islu)
-jokereven的创业计划
+程序员jokereven
 GoReactTaro全栈程序员，持续分享编程干货
 技术栈：Golang、前端
 干货公众号：JokerEven
