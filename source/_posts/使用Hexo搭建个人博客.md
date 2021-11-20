@@ -2,7 +2,7 @@
 title: 使用Hexo搭建个人博客
 author: 周靖
 img: medias/featureimages/16.jpg
-top: true
+top: false
 cover: false
 toc: true
 mathjax: false
@@ -21,7 +21,7 @@ password:
 
 ## `使用Hexo搭建个人博客`
 
-##### [Hexo配置](https://gitee.com/yafine66/hexo-theme-matery)
+##### [Hexo 配置](https://gitee.com/yafine66/hexo-theme-matery)
 
 ### `一. 服务器配置Git`
 
@@ -155,7 +155,7 @@ git --work-tree=/home/hexo --git-dir=/home/even/blog.git checkout -f
 #### `7. 修改权限`
 
 ```js
-chmod +x /home/even/blog.git/hooks/post-receive
+chmod + x / home / even / blog.git / hooks / post - receive;
 ```
 
 #### `8. 在windows10本地hexo根目录修改_config.yml文件`

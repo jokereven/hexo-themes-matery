@@ -2,7 +2,7 @@
 title: 使用Docker搭建个人网盘系统
 author: 周靖
 img: medias/featureimages/8.jpg
-top: true
+top: false
 cover: false
 toc: true
 mathjax: false
@@ -24,6 +24,7 @@ password:
 ### `一. 个人网盘的搭建`
 
 #### `1. 安装DOCKER`
+
 其它文章
 
 #### `2. 获取NEXTCLOUD镜像`

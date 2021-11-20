@@ -144,8 +144,7 @@ video:
   enable: true
   showTitle: true # 是否显示title
   title: Love Me # title名
-  url: https://qsx2jpa6.v1d.szbdyd.com:9305/fseeca82d4.a.bdydns.com/1924164272/cloudmusic/e0c3/core/c425/a0ebb346a2820d30b614068c0faba244.mp4?wsSecret=6fafcf636dc290859a75a717818b274d&wsTime=1631111138&http_cdnfrom=bdcloud&max_age=31104000&r=csLMxLOSlEBTC8LdFx2MzAZ5vxvlU2mip0JMw3pKvt7sDgzMd8uKTYNYCGch5Me%2F%2FIuVUAh4Isb0Z4IUUban53VnQsK4Yn9Z%2BkbgdX6x9wE57bYgGQnYwFkQs0aLCp8Ls54YjaewZV3VNOzXGXAyKYWa%2Fug%2BTnsSVl7kD6Zq4LWS6Ja45lz%2FqGNhV5qxavKDsmi1TBqEYXA7cCpke7W3Bg%3D%3D&xyip=114.239.193.212&xyct=30&xysc=1&xy_rid=3CHvbNr42xTeJ8&sent_http_cdn-ip=111.174.1.35&sent_http_cdn-user-ip=171.113.222.194&sent_http_cache=state&sent_http_cdn-source=bdcloud&sent_http_access-control-expose-headers=Content-Range%2C%20Last-Modified&sent_http_access-control-allow-origin=*&sent_http_access-control-allow-credentials=true&sent_http_access-control-allow-methods=GET%2CPOST%2COPTIONS&sent_http_access-control-allow-headers=DNT%2CX-CustomHeader%2CKeep-Alive%2CUser-Agent%2CX-Requested-With%2CIf-Modified-Since%2CCache-Control%2CContent-Type%2CRange # 必填
-  pic: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTqBcjE_nPoAWUTxgmStu8zRATqdSmbFiAOw&usqp=CAU
+  url: http://vodkgeyttp9c.vod.126.net/vodkgeyttp8/68sKFbGS_1328070069_hd.mp4?ts=1637397190&rid=47115DC667964F5C42BDE925D7219E80&rl=3&rs=tFvUQjgHATFRegFyahDvDeiqhbQcpzSf&sign=ba3127e148d5fe4102880a0719db944b&ext=NnR5gMvHcZNcbCz592mDGUGuDOFN18isir07K1EOfL0OSrbMUmcKnS5Hfh7C64eH6Q1Olf7%2F%2BtseWdXeKzGhWEdomsIO6f5LVncrGumidy5hB4MhFazV7WmuR2ZeDh7%2B8%2FpPgsV%2BGqUuG4ijjEHzfM3TsuFUvFqV1zBn8SKYIuilt8SrzyfAVB1B4pig1TuY29neknjsBGtzyy878lMV5xkloV4RVRfDvl7y6%2FyOcEhBEQF9i%2BQaRl0Km8Aq03gl
   thumbnails:
   height: # 如：400
   autoplay: false # 是否自动播放
