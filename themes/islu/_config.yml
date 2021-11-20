@@ -53,14 +53,14 @@ menu:
       - name: 友链监测
         url: /supervise
         icon: fa fa-desktop
-  实验楼:
+  meta:
     icon: fas fa-link
     children:
-      - name: jquery.terminal
+      - name: cmd
         url: /cmd
-        icon: fas fa-external-link-square-alt
-      - name: freelancer
-        url: /freelancer
+        icon: fas fa-terminal
+      - name: ouaan
+        url: /ouaan
         icon: fab fa-freebsd
 
 # Website start time.
@@ -90,7 +90,7 @@ cover:
 dream:
   enable: true
   showTitle: true
-  title:  人生格言
+  title: 人生格言
   text: 被逼到墙角然后欣赏自己谋求生路...冲出去又发现歧路蔓延...但终点不远却暗色...选择直线是我的风格...哪怕双脚离地被挂在荆棘上...但冷静会让人退缩...所以装分卖傻绕行之不让人察觉我这几年的伤心...暂时我要的生活不是这样的...但我决定要干什么都会很像样的...别劝我...我无悔...为理想坚持吧...哈...
 
 # 加载动画
@@ -123,20 +123,20 @@ friendsCircle:
 # 是否在首页显示音乐.
 music:
   enable: true
-  title:     	    # 非吸底模式有效
+  title: # 非吸底模式有效
     enable: true
     show: CouldMusic
-  server: tencent   # require music platform: netease, tencent, kugou, xiami, baidu
-  type: playlist    # require song, playlist, album, search, artist
-  id: 7269231710     # require song id / playlist id / album id / search keyword
-  fixed: false      # 开启吸底模式
-  autoplay: false   # 是否自动播放
+  server: tencent # require music platform: netease, tencent, kugou, xiami, baidu
+  type: playlist # require song, playlist, album, search, artist
+  id: 7269231710 # require song id / playlist id / album id / search keyword
+  fixed: false # 开启吸底模式
+  autoplay: false # 是否自动播放
   theme: '#000'
-  loop: 'all'       # 音频循环播放, 可选值: 'all', 'one', 'none'
-  order: 'random'   # 音频循环顺序, 可选值: 'list', 'random'
-  preload: 'auto'   # 预加载，可选值: 'none', 'metadata', 'auto'
-  volume: 0.7       # 默认音量，请注意播放器会记忆用户设置，用户手动设置音量后默认音量即失效
-  listFolded: true  # 列表默认折叠
+  loop: 'all' # 音频循环播放, 可选值: 'all', 'one', 'none'
+  order: 'random' # 音频循环顺序, 可选值: 'list', 'random'
+  preload: 'auto' # 预加载，可选值: 'none', 'metadata', 'auto'
+  volume: 0.7 # 默认音量，请注意播放器会记忆用户设置，用户手动设置音量后默认音量即失效
+  listFolded: true # 列表默认折叠
 
 # Whether to display the videos.
 # 是否在首页显示视频.
@@ -173,7 +173,7 @@ logTest: 周靖
 # 首页 banner 中的第二行个人信息配置，留空即不启用
 socialLink:
   enable: true
-  github:  https://github.com/jokereven
+  github: https://github.com/jokereven
   email: zhou125disorder@gmail.com
   facebook: # https://www.facebook.com/xxx
   twitter: # https://twitter.com/xxx
@@ -248,7 +248,6 @@ profile:
   career: 🎓 在校大专人 # 职业
   introduction: 你要知道,人没有欲望就没有弱点。弱点,永远在想得到某样东西的路上。 # 介绍
 
-
 # config my projects informations in about page.
 # If you don't want to display this `My Projects` content, you can deactivate or delete this configuration.
 # 在“关于”页面配置"我的项目"信息，如果你不需要这些信息则可以将其设置为不激活或者将其删除.
@@ -256,20 +255,20 @@ myProjects:
   enable: true
   data:
     简书:
-        icon: fas fa-database
-        iconBackground: 'linear-gradient(to bottom right, #F06292 0%, #EF5350 100%)'
-        url: https://github.com/jokereven/jianshu
-        desc: 初学React时写的Dome
+      icon: fas fa-database
+      iconBackground: 'linear-gradient(to bottom right, #F06292 0%, #EF5350 100%)'
+      url: https://github.com/jokereven/jianshu
+      desc: 初学React时写的Dome
     模仿网易云音乐PC端:
       icon: fas fa-file-alt
       iconBackground: 'linear-gradient(to bottom right, #66BB6A 0%, #81C784 100%)'
       url: https://github.com/jokereven/code520/tree/master/music
       desc: 深度学习React(页面待美化...)
     bluebell:
-        icon: fas fa-file-alt
-        iconBackground: 'linear-gradient(to bottom right, #29B6F6 0%, #1E88E5 100%)'
-        url: https://github.com/jokereven/gin_web
-        desc: Go语言bluebell后台项目
+      icon: fas fa-file-alt
+      iconBackground: 'linear-gradient(to bottom right, #29B6F6 0%, #1E88E5 100%)'
+      url: https://github.com/jokereven/gin_web
+      desc: Go语言bluebell后台项目
 
 # config my skills informations in about page.
 # If you don't want to display this `My Skills` content, you can deactivate or delete this configuration.
@@ -309,7 +308,6 @@ myGallery:
     - /medias/featureimages/4.jpg
     - /medias/featureimages/5.jpg
 
-
 # Whether to display post-calender in the `archive` page
 # 设置在归档页面中是否显示'文章日历'控件
 postCalendar: true
@@ -338,9 +336,9 @@ valine:
     - mail
     - link
   master:
-    - 91c262da22dd4c2746aa3f46838648cf  # md5加密后的博主邮箱
-    - d7578dab7bb0ebfc0dcb47191863cdbd  # md5加密后的博主邮箱
-  metaPlaceholder:  # 输入框的背景文字
+    - 91c262da22dd4c2746aa3f46838648cf # md5加密后的博主邮箱
+    - d7578dab7bb0ebfc0dcb47191863cdbd # md5加密后的博主邮箱
+  metaPlaceholder: # 输入框的背景文字
     nick: 昵称/QQ号(必填)
     mail: 邮箱(必填)
     link: 网址(https://)
@@ -439,30 +437,30 @@ libs:
 # The post featured images that needs to be displayed when there is no image.
 # 无文章特色图片时需要显示的文章特色图片.
 featureImages:
-- /medias/featureimages/0.jpg
-- /medias/featureimages/1.jpg
-- /medias/featureimages/2.jpg
-- /medias/featureimages/3.jpg
-- /medias/featureimages/4.jpg
-- /medias/featureimages/5.jpg
-- /medias/featureimages/6.jpg
-- /medias/featureimages/7.jpg
-- /medias/featureimages/8.jpg
-- /medias/featureimages/9.jpg
-- /medias/featureimages/10.jpg
-- /medias/featureimages/11.jpg
-- /medias/featureimages/12.jpg
-- /medias/featureimages/13.jpg
-- /medias/featureimages/14.jpg
-- /medias/featureimages/15.jpg
-- /medias/featureimages/16.jpg
-- /medias/featureimages/17.jpg
-- /medias/featureimages/18.jpg
-- /medias/featureimages/19.jpg
-- /medias/featureimages/20.jpg
-- /medias/featureimages/21.jpg
-- /medias/featureimages/22.jpg
-- /medias/featureimages/23.jpg
+  - /medias/featureimages/0.jpg
+  - /medias/featureimages/1.jpg
+  - /medias/featureimages/2.jpg
+  - /medias/featureimages/3.jpg
+  - /medias/featureimages/4.jpg
+  - /medias/featureimages/5.jpg
+  - /medias/featureimages/6.jpg
+  - /medias/featureimages/7.jpg
+  - /medias/featureimages/8.jpg
+  - /medias/featureimages/9.jpg
+  - /medias/featureimages/10.jpg
+  - /medias/featureimages/11.jpg
+  - /medias/featureimages/12.jpg
+  - /medias/featureimages/13.jpg
+  - /medias/featureimages/14.jpg
+  - /medias/featureimages/15.jpg
+  - /medias/featureimages/16.jpg
+  - /medias/featureimages/17.jpg
+  - /medias/featureimages/18.jpg
+  - /medias/featureimages/19.jpg
+  - /medias/featureimages/20.jpg
+  - /medias/featureimages/21.jpg
+  - /medias/featureimages/22.jpg
+  - /medias/featureimages/23.jpg
 
 # default configs that the default policy for every articles/posts
 # default 配置文章的默认转载规则
@@ -502,7 +500,7 @@ ribbon:
   size: 150 # 彩带大小, 默认: 90.
   alpha: 0.6 # 彩带透明度 (0 ~ 1), 默认: 0.6.
   zIndex: -1 # 背景的z-index属性，css属性用于控制所在层的位置, 默认: -1.
-  clickChange: true  # 设置是否每次点击都更换彩带.
+  clickChange: true # 设置是否每次点击都更换彩带.
 
 # 背景动态彩带.
 ribbon_dynamic:
@@ -517,7 +515,7 @@ sharejs:
 # addthis文章分享模块.
 addthis:
   enable: false
-  pubid:  # 前往https://www.addthis.com/获取
+  pubid: # 前往https://www.addthis.com/获取
 
 # 打字效果副标题.
 # 如果有符号 ‘ ，请在 ’ 前面加上 \
@@ -536,9 +534,7 @@ subtitle:
 navMenu:
   mleft: true # 二级侧栏子菜单是否对齐左边
   leftMargin: 0px #
-  bgColor: " " # 二级侧栏子菜单背景颜色,留空即为全局背景色
-
-
+  bgColor: ' ' # 二级侧栏子菜单背景颜色,留空即为全局背景色
 
 # banner 是否每日切换.
 # 若为 false, 则 banner 默认为 /medias/banner/0.jpg

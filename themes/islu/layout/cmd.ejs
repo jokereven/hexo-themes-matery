@@ -29,23 +29,19 @@
           Learn how to configure a non-root public URL by running `npm run build`.
         -->
   <title>FREE | LANCER | ROADMAP</title>
+  <style>
+    body {
+      background: url("http://qiniuyun.code520.com.cn/images/20211119150731.png");
+    }
+
+  </style>
 </head>
 
 <body>
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-  <script src="https://unpkg.com/jquery.terminal/js/jquery.terminal.min.js"></script>
-
-  <link rel="stylesheet" href="https://unpkg.com/jquery.terminal/css/jquery.terminal.min.css" />
-
+  <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/jcubic/jquery.terminal@devel/js/jquery.terminal.min.js"></script>
+  <link href="https://cdn.bootcdn.net/ajax/libs/jquery.terminal/2.27.0/css/jquery.terminal.min.css" rel="stylesheet">
   <style type="text/css">
-    body {
-      background-image: url("/medias/zhihu.png");
-    }
-
-    .terminal {
-      position: relative;
-    }
-
     .terminal,
     span,
     .cmd,
@@ -114,7 +110,10 @@
               window.open("http://121.4.48.188:3000/song/url?id=" + id)
             },
             file: function () {
-              window.open("http://180.76.151.5/", "_self")
+              window.open("http://180.76.151.5/downloads", "new")
+            },
+            nextcloud: function () {
+              window.open('http://47.100.25.127:8888/', "new")
             },
             help: function () {
               this.echo(
@@ -140,6 +139,11 @@
                 '\n' +
                 '180.76.151.5' +
                 '\n' +
+                'nextcloud' +
+                '个人网盘' +
+                '\n' +
+                '47.100.25.127' +
+                '\n' +
                 '更多功能加载中...'
               );
             },
@@ -150,11 +154,7 @@
               '\n' +
               '博客：blog.code520.com.cn' +
               '\n' +
-              '自由职业开发者：freelancer.code520.com.cn' +
-              '\n' +
-              'cmd：cmd.code520.com.cn' +
-              '\n' +
-              '微信公众号：Jokereven' +
+              '微信公众号：JokerEven' +
               '\n' +
               '微信小程序：JOKER EVEN' +
               '\n' +
@@ -170,6 +170,9 @@
               '📭' +
               '\n' +
               '邮箱:zjing125.cn@gmail.com' +
+              '📭' +
+              '\n' +
+              '邮箱:admin@code520.com.cn' +
               '📭' +
               '\n' +
               'QQ：3440601909' +
