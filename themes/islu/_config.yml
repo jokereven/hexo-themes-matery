@@ -62,6 +62,9 @@ menu:
       - name: ouaan
         url: /ouaan
         icon: fab fa-freebsd
+      - name: chat
+        url: /chat
+        icon: fab fa-freebsd
 
 # Website start time.
 # 站点运行开始时间.
