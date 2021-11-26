@@ -64,7 +64,10 @@ menu:
         icon: fab fa-freebsd
       - name: chat
         url: /chat
-        icon: fab fa-freebsd
+        icon: fab fa-twitch
+      - name: universe
+        url: /universe
+        icon: fas fa-globe-asia
 
 # Website start time.
 # 站点运行开始时间.
