@@ -9,7 +9,6 @@ mathjax: false
 summary: Golang结构体
 categories:
   - Golang
-  - 结构体
 tags:
   - Golang
   - 结构体

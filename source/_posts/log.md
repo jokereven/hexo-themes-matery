@@ -9,7 +9,6 @@ mathjax: false
 summary: log
 categories:
   - Golang
-  - log
 tags:
   - Golang
   - log

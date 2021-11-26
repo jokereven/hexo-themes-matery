@@ -9,7 +9,6 @@ mathjax: false
 summary: fmt
 categories:
   - Golang
-  - fmt
 tags:
   - Golang
   - fmt

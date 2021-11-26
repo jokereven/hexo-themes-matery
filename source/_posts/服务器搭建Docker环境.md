@@ -48,14 +48,14 @@ Saving to: ‘/etc/yum.repos.d/docker-ce.repo’
 
 ```js
 yum install docker-ce -y /* 安装docker-ce(最新版) */
-sudo systemctl start docker /* 启动docker */
-sudo systemctl enable docker/* 开启自动启动 */
+systemctl start docker /* 启动docker */
+systemctl enable docker/* 开启自动启动 */
 ```
 
 #### `4. 配置docker镜像源`
 
 ```js
-sudo mkdir -p /etc/docker
+mkdir -p /etc/docker
 sudo vi etc/docker/daemon.json
 
 {
@@ -68,14 +68,14 @@ sudo vi etc/docker/daemon.json
     ]
 }
 
-sudo systemctl daemon-reload /* 重新加载配置文件 */
-sudo systemctl restart docker /* 重新启动docker */
+systemctl daemon-reload /* 重新加载配置文件 */
+systemctl restart docker /* 重新启动docker */
 ```
 
 #### `5. 查看是否成功`
 
 ```js
-[root@VM-4-8-centos /]# sudo docker info
+[root@VM-4-8-centos /]# docker info
 
  Registry Mirrors:
   https://registry.docker-cn.com/

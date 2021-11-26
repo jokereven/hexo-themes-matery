@@ -8,7 +8,6 @@ toc: true
 mathjax: false
 summary: RESTful
 categories:
-  - RESTful
   - Golang
 tags:
   - RESTful

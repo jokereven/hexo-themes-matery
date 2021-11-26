@@ -7,14 +7,12 @@ cover: false
 toc: true
 mathjax: false
 summary: 浏览器图片默认https加载
-categories:
-  - 浏览器
-  - 图片
-  - https
+categories: 图片
 tags:
   - 浏览器
   - 图片
   - https
+  - 问题
 keywords: 周靖
 essay: false
 abbrlink: 8911
@@ -26,5 +24,7 @@ password:
 # https
 
 ```
-部署一个ssl证书
+今天hexo图片都无法显示
+打开控制台发现图片请求都是默认https请求的
+搞一个ssl证书就好了
 ```

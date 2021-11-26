@@ -9,7 +9,6 @@ mathjax: false
 summary: flag
 categories:
   - Golang
-  - flag
 tags:
   - Golang
   - flag

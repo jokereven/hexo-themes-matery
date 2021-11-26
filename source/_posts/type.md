@@ -9,7 +9,6 @@ mathjax: false
 summary: type
 categories:
   - Golang
-  - type
 tags:
   - Golang
   - type

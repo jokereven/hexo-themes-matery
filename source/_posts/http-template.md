@@ -8,7 +8,6 @@ toc: true
 mathjax: false
 summary: http-template
 categories:
-  - http-template
   - Golang
 tags:
   - http-template

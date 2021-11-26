@@ -25,14 +25,14 @@ password:
 
 #### `1. 安装DOCKER`
 
-其它文章
+其它文章(<https://blog.code520.com.cn/posts/17870.html>)
 
 #### `2. 获取NEXTCLOUD镜像`
 
 ```js
 docker pull nextcloud
 docker run -d --restart=always --name nextcloud -p 8888:80 nextcloud
-
+/* 开一下防火墙 */
 /* 端口号自己到服务器的控制台添加一下随你自己添加什么端口 */
 ```
 

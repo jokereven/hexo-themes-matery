@@ -9,7 +9,6 @@ mathjax: false
 summary: Golang错误
 categories:
   - Golang
-  - 错误
 tags:
   - Golang
   - 错误

@@ -1,13 +1,13 @@
 ---
-title: 服务器安装Golang
+title: 服务器搭建Golang环境
 author: 周靖
 img: medias/featureimages/14.jpg
 top: false
 cover: false
 toc: true
 mathjax: false
-summary: 服务器安装Golang环境
-categories: 服务器
+summary: 服务器搭建Golang环境
+categories: Golang
 tags:
   - 服务器
   - Golang
@@ -19,7 +19,7 @@ coverImg:
 password:
 ---
 
-### `服务器安装Golang`
+### `服务器搭建Golang环境`
 
 1. 下载 Golang 安装包
 
@@ -76,3 +76,17 @@ wget https://dl.google.com/go/go1.17.3.linux-amd64.tar.gz(这里速度可能太�
    ```
 
 7. 开始写 Go 代码
+
+   > 来个 Golang 的 helloWorld
+
+   ```
+   package main
+
+   import "fmt"
+
+   package main(){
+    fmt.Println("HelloWorld")
+   }
+   ```
+
+   ![image-20211126133711151](http://qiniuyun.code520.com.cn/images/20211126133711.png)

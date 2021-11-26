@@ -9,8 +9,6 @@ mathjax: false
 summary: nginx搭建文件服务网站
 categories:
   - nginx
-  - 文件服务
-  - 网站
 tags:
   - nginx
   - 文件服务

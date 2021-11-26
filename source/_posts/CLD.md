@@ -8,7 +8,6 @@ toc: true
 mathjax: false
 summary: CLD
 categories:
-  - Golang
   - CLD
 tags:
   - Golang

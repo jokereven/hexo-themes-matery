@@ -8,7 +8,6 @@ toc: true
 mathjax: false
 summary: Go模板语法基础
 categories:
-  - Go模板语法基础
   - Golang
 tags:
   - Go模板语法基础

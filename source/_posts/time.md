@@ -9,7 +9,6 @@ mathjax: false
 summary: time
 categories:
   - Golang
-  - time
 tags:
   - Golang
   - time

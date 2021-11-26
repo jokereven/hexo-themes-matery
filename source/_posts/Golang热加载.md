@@ -9,7 +9,6 @@ mathjax: false
 summary: Golang热加载
 categories:
   - Golang
-  - 热加载
 tags:
   - Golang
   - 热加载

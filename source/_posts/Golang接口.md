@@ -9,7 +9,6 @@ mathjax: false
 summary: Golang接口
 categories:
   - Golang
-  - 接口
 tags:
   - Golang
   - 接口

@@ -9,7 +9,6 @@ mathjax: false
 summary: 一直启动Node服务
 categories:
   - Node
-  - 服务
 tags:
   - Node
   - 服务

@@ -8,7 +8,6 @@ toc: true
 mathjax: false
 summary: ginweb
 categories:
-  - web
   - gin
 tags:
   - web

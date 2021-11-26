@@ -9,7 +9,6 @@ mathjax: false
 summary: file
 categories:
   - Golang
-  - file
 tags:
   - Golang
   - file
