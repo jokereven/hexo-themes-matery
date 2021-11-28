@@ -16,9 +16,9 @@ menu:
       - name: 随笔
         url: /categories/随笔/
         icon: fas fa-pen
-  归档:
-    url: /archives
-    icon: fas fa-archive
+      - name: 归档
+        url: /archives
+        icon: fas fa-archive
   清单:
     url: /time
     icon: fas fa-image
@@ -65,9 +65,12 @@ menu:
       - name: chat
         url: /chat
         icon: fab fa-twitch
-      - name: universe
-        url: /universe
-        icon: fas fa-globe-asia
+  universe:
+    icon: fas fa-globe-asia
+    children:
+      - name: 搞钱
+        url: /搞钱
+        icon: fas fa-yen-sign
 # Website start time.
 # 站点运行开始时间.
 time:

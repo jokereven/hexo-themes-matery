@@ -1,0 +1,54 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>搞钱</title>
+  <style>
+    body {
+      background: url("http://qiniuyun.code520.com.cn/images20211026183453.png");
+    }
+
+    #carry {
+      width: 100vw !important;
+      height: 100vh !important;
+    }
+
+    #carry ul {
+      width: 100vw;
+      height: 100vh;
+      display: grid;
+      /*  声明了三列，宽度分别为 200px 100px 200px */
+      grid-template-columns: 30% 30% 30%;
+      grid-gap: 5px;
+      /*  声明了两行，行高分别为 50px 50px  */
+      grid-template-rows: 256px 256px;
+      position: absolute;
+    }
+
+    #carry ul li {
+      text-align: center;
+      line-height: 256px;
+      border-radius: 4px;
+      cursor: pointer;
+      border: 1px solid #aaa;
+    }
+
+  </style>
+</head>
+
+<body>
+  <div id="carry" style="width: 100%;height: 100%;">
+    <ul>
+      <li>发卡</li>
+      <li>发卡</li>
+      <li>发卡</li>
+      <li>发卡</li>
+      <li>发卡</li>
+      <li>发卡</li>
+    </ul>
+  </div>
+</body>
+
+</html>
