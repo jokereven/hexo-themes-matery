@@ -6,11 +6,13 @@ top: false
 cover: false
 toc: true
 mathjax: false
-summary: centos-本地yum配置
+summary: centos-本地yum配置-ip-sun-targetcli
 categories:
+  - targetcli
   - centos
   - yum
 tags:
+  - targetcli
   - centos
   - yum
 keywords: 周靖
@@ -20,7 +22,6 @@ date: 2021-12-02 09:23:50
 coverImg:
 password:
 ---
-
 https://www.cnblogs.com/diantong/p/11362875.html
 
 #### 服务器端
