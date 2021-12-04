@@ -1,12 +1,12 @@
 ---
-title: centos-本地yum配置
+title: centos-本地yum配置-ip-sun-targetcli
 author: 周靖
 img: medias/featureimages/6.jpg
 top: false
 cover: false
 toc: true
 mathjax: false
-summary: centos-本地yum配置-ip-sun-targetcli
+summary: centos-本地yum配置
 categories:
   - targetcli
   - centos
@@ -22,7 +22,8 @@ date: 2021-12-02 09:23:50
 coverImg:
 password:
 ---
-https://www.cnblogs.com/diantong/p/11362875.html
+
+<https://www.cnblogs.com/diantong/p/11362875.html>
 
 #### 服务器端
 
@@ -61,4 +62,4 @@ node.session.auth.password = 123456　　//第62行，取消注释，并修改�
 
 ![image-20211202174209929](http://qiniuyun.code520.com.cn/images/20211202174209.png)
 
-#### windows的都差不多
+#### windows 的都差不多
