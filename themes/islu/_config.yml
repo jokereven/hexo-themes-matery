@@ -71,9 +71,9 @@ menu:
       - name: 搞钱
         url: /搞钱
         icon: fas fa-yen-sign
-      - name: python
-        url: /python
-        icon: fab fa-python
+      - name: 自动化
+        url: /自动化
+        icon: fas fa-cubes
 # Website start time.
 # 站点运行开始时间.
 time:
@@ -272,7 +272,7 @@ myProjects:
     模仿网易云音乐PC端:
       icon: fas fa-file-alt
       iconBackground: 'linear-gradient(to bottom right, #66BB6A 0%, #81C784 100%)'
-      url: https://github.com/jokereven/code520/tree/master/music
+      url: https://github.com/jokereven/cloud-music
       desc: 深度学习React(页面待美化...)
     bluebell:
       icon: fas fa-file-alt
