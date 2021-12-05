@@ -76,6 +76,18 @@ vim /etc/sudoers
 ![image-20211129151453111](http://qiniuyun.code520.com.cn/images/20211129151453.png)
 
 ```
+在本地安装git
+仓库添加的是
+$ git remote add origin "git@121.4.48.188:/www/wwwroot/doc.code520.com.cn/docsify.git"
+这里代码提交到服务器了
+代码提交的地址
+git@服务器地址:/文件存放的位置/.git文件夹
+这里代码提交之后文件不会发生变化
+可以通过git clone 拉取代码
+git clone git@121.4.48.188:/www/wwwroot/doc.code520.com.cn/docsify.git
+```
+
+```
 但是现在有一个问题hexo博客提交有一点问题
 提交不要密码了
 ```
