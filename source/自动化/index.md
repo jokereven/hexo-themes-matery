@@ -19,6 +19,6 @@ layout: '自动化'
 大家有什么好的资源也可以分享一下大家一起使用
 ```
 
-- 水哥(不高兴就喝水)(python自动化小工具) <http://file.code520.com.cn/waterRPA.zip>
-- word转pdf <http://file.code520.com.cn/word-pdf.zip>
-- bilibili视频批量下载器 <http://file.code520.com.cn/DownKyi-1.4.0.zip>
+- 水哥(不高兴就喝水)[python 自动化小工具](http://file.code520.com.cn/waterRPA.zip)
+- word 转 pdf [源代码版](http://file.code520.com.cn/WordtoPDFSc.zip) [可直接食用版](http://file.code520.com.cn/WordtoPDFEdi.zip)
+- [bilibili 视频批量下载器](http://file.code520.com.cn/DownKyi-1.4.0.zip)
