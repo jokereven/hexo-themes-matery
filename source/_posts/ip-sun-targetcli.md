@@ -1,12 +1,12 @@
 ---
-title: centos-本地yum配置-ip-sun-targetcli
+title: ip-sun-targetcli
 author: 周靖
 img: medias/featureimages/6.jpg
 top: false
 cover: false
 toc: true
 mathjax: false
-summary: centos-本地yum配置
+summary: ip-sun-targetcli
 categories:
   - targetcli
   - centos
@@ -23,7 +23,7 @@ coverImg:
 password:
 ---
 
-<https://www.cnblogs.com/diantong/p/11362875.html>
+##### 其它可以参考这个:<https://www.cnblogs.com/diantong/p/11362875.html>
 
 #### 服务器端
 
@@ -37,13 +37,11 @@ password:
 
 ![image-20211202093556878](http://qiniuyun.code520.com.cn/images/20211202093556.png)
 
-![image-20211202094842745](C:\Users\jokereven\AppData\Roaming\Typora\typora-user-images\image-20211202094842745.png)
-
-![image-20211202095428910](http://qiniuyun.code520.com.cn/images/20211202095428.png)
-
 ![image-20211202172412668](http://qiniuyun.code520.com.cn/images/20211202172412.png)
 
 ![image-20211202172457566](http://qiniuyun.code520.com.cn/images/20211202172457.png)
+
+![image-20211202095428910](http://qiniuyun.code520.com.cn/images/20211202095428.png)
 
 #### linux-host
 
@@ -61,5 +59,3 @@ node.session.auth.password = 123456　　//第62行，取消注释，并修改�
 ![image-20211202174012386](http://qiniuyun.code520.com.cn/images/20211202174012.png)
 
 ![image-20211202174209929](http://qiniuyun.code520.com.cn/images/20211202174209.png)
-
-#### windows 的都差不多
