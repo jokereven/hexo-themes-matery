@@ -2,9 +2,9 @@
 title: Vscode网页版搭建
 author: 周靖
 img: medias/featureimages/15.jpg
-top: true
+top: false
 cover: false
-toc: true
+toc: false
 mathjax: false
 summary: Vscode网页版搭建
 categories: Vscode
@@ -18,7 +18,7 @@ coverImg:
 password:
 ---
 
-```
+````
 ## `vscode网页版搭建`
 
 ### `配置code-server`
@@ -29,7 +29,7 @@ password:
 /* 挂载代理 */
 /* 先挂载代理在下载 */
 export http_proxy=http://proxyAddress:port
-```
+````
 
 2. `下载`
 
@@ -103,4 +103,7 @@ cd code-server
 /* 在试一下 */
 ./start.sh
 ```
+
+```
+
 ```

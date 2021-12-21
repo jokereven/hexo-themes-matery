@@ -155,7 +155,7 @@ video:
   enable: true
   showTitle: true # 是否显示title
   title: Love Me # title名
-  url: http://video.code520.com.cn/video/1639102163307.mp4
+  url: https://jsmov2.a.yximgs.com/upic/2020/06/18/21/BMjAyMDA2MTgyMTQzNDRfMTc3MTUzMDUwN18zMDcyNTk4ODMwM18yXzM=_b_Bff62965761397a0972c2fee42e2b2af2.mp4
   thumbnails:
   height: # 如：400
   autoplay: false # 是否自动播放
@@ -268,7 +268,7 @@ myProjects:
       icon: fas fa-database
       iconBackground: 'linear-gradient(to bottom right, #F06292 0%, #EF5350 100%)'
       url: https://github.com/jokereven/jianshu
-      desc: 初学React时写的Dome
+      desc: 初学React时写的demo
     模仿网易云音乐PC端:
       icon: fas fa-file-alt
       iconBackground: 'linear-gradient(to bottom right, #66BB6A 0%, #81C784 100%)'
@@ -288,22 +288,22 @@ mySkills:
   data:
     Golang:
       background: 'linear-gradient(to right, #FF0066 0%, #FF00CC 100%)'
-      percent: 65%
+      percent: 80%
     React:
       background: 'linear-gradient(to right, #9900FF 0%, #CC66FF 100%)'
       percent: 80%
     Taro:
       background: 'linear-gradient(to right, #2196F3 0%, #42A5F5 100%)'
-      percent: 20%
+      percent: 50%
     JavaScript:
       background: 'linear-gradient(to right, #00BCD4 0%, #80DEEA 100%)'
-      percent: 75%
+      percent: 80%
     SQL:
       background: 'linear-gradient(to right, #4CAF50 0%, #81C784 100%)'
-      percent: 55%
+      percent: 75%
     程序设计:
       background: 'linear-gradient(to right, #FFEB3B 0%, #FFF176 100%)'
-      percent: 60%
+      percent: 80%
 
 # config gallery of my photos in about page.
 # If you don't want to display this `Gallery` content, you can deactivate or delete this configuration.
@@ -311,12 +311,12 @@ mySkills:
 myGallery:
   enable: true
   data:
-    - /medias/featureimages/0.jpg
-    - /medias/featureimages/1.jpg
-    - /medias/featureimages/2.jpg
-    - /medias/featureimages/3.jpg
-    - /medias/featureimages/4.jpg
-    - /medias/featureimages/5.jpg
+    - /medias/featureimages/6.jpg
+    - /medias/featureimages/7.jpg
+    - /medias/featureimages/8.jpg
+    - /medias/featureimages/9.jpg
+    - /medias/featureimages/10.jpg
+    - /medias/featureimages/11.jpg
 
 # Whether to display post-calender in the `archive` page
 # 设置在归档页面中是否显示'文章日历'控件

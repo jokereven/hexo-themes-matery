@@ -18,10 +18,9 @@ coverImg:
 password:
 ---
 
-有关于下chrome号购买
+有关于下 chrome 号购买
 
 1. 现成(直接拍)
-
 2. 帮忙注册(提供以下信息)
 
 ![image-20211107214340718](http://qiniuyun.code520.com.cn/images20211107214340.png)
