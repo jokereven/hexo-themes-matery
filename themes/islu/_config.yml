@@ -74,6 +74,9 @@ menu:
       - name: 自动化
         url: /自动化
         icon: fas fa-cubes
+      - name: vscode
+        url: /vscode
+        icon: fas fa-code-branch
 # Website start time.
 # 站点运行开始时间.
 time:
@@ -220,7 +223,7 @@ reward:
 # 是否激活复制文章时追加博客和作者的版权信息.
 copyright:
   enable: true
-  minCharNumber: 120 # 至少复制多少个字符就追加版权信息.
+  minCharNumber: 1024 # 至少复制多少个字符就追加版权信息.
   description: 本文章著作权归作者所有，任何形式的转载都请注明出处。
 
 # Whether to activate the mathjax, this is a global configuration, but the post still does not open the mathjax rendering.
@@ -229,7 +232,7 @@ copyright:
 # 是否激活mathjax数学公式，这是全局配置，但文章仍然不会都开启mathjax渲染，
 # 考虑到mathjax加载比较耗时，你还需要在需要渲染的文章的Front-matter中再加上`mathjax: true`才行.
 mathjax:
-  enable: false
+  enable: ture
   cdn: https://cdn.bootcss.com/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML
 
 # Post word count, reading duration, site total word count.
