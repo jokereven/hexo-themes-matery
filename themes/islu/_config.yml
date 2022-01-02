@@ -19,6 +19,9 @@ menu:
       - name: 归档
         url: /archives
         icon: fas fa-archive
+      - name: 年终总节
+        url: /categories/年终总节/
+        icon: fas fa-smile-wink
   清单:
     url: /time
     icon: fas fa-image
