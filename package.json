@@ -36,5 +36,8 @@
     "live2d-widget-model-hijiki": "^1.0.5",
     "live2d-widget-model-koharu": "^1.0.5",
     "live2d-widget-model-tororo": "^1.0.5"
+  },
+  "devDependencies": {
+    "serve": "^13.0.2"
   }
 }
