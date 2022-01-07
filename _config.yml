@@ -188,9 +188,9 @@ live2d:
     use: live2d-widget-model-koharu # 模型名称
   display:
     superSample: 2 # 超采样等级
-    position: right # 显示位置：左或右
-    width: 175 # 显示模型的canvas画布的宽度
-    height: 350 # 显示模型的canvas画布的高度
+    position: left # 显示位置：左或右
+    width: 178 # 显示模型的canvas画布的宽度
+    height: 360 # 显示模型的canvas画布的高度
     hOffset: 45 # canvas画布的水平偏移量
     vOffset: -45 # canvas画布的垂直偏移量
   mobile:
@@ -206,3 +206,14 @@ live2d:
   dialog:
     enable: true # 显示人物对话框
     hitokoto: true # 使用一言API
+
+# rss
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+  hub:
+  content:
+  content_limit: 140
+  content_limit_delim: ' '
+  order_by: -date

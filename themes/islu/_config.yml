@@ -139,7 +139,7 @@ friendsCircle:
 # Whether to display the musics.
 # 是否在首页显示音乐.
 music:
-  enable: true
+  enable: ture
   title: # 非吸底模式有效
     enable: true
     show: CouldMusic
@@ -190,14 +190,14 @@ logTest: 周靖
 socialLink:
   enable: true
   github: https://github.com/jokereven
-  email: zhou125disorder@gmail.com
-  facebook: # https://www.facebook.com/xxx
-  twitter: # https://twitter.com/xxx
+  email: zjing125.cn@gmail.com
+  # facebook: https://www.facebook.com/profile.php?id=100076069135481
+  # twitter: https://twitter.com/cnzjing125
   qq: 2178066226
   bilibili: https://space.bilibili.com/2104605936
-  weibo: # https://weibo.com/xxx
+  # weibo: https://weibo.com/u/7582898613
   zhihu: https://www.zhihu.com/people/jokereven
-  rss: false # true、false
+  # rss: true # true、false
 
 # Whether to activate the Post TOC, and Configure which title types are supported by TOC support.
 # You can add `toc: false` to the Front-matter of a post to turn off the TOC.
@@ -250,7 +250,7 @@ postInfo:
   totalCount: true # 站点总文章字数
   min2read: true # 文章阅读时长
   readCount: true # 文章阅读次数
-  timeLag: true # 开启发布或更新距今时间间隔
+  timeLag: false # 开启发布或更新距今时间间隔
 
 # Whether to activate the 'love' effect of clicking on the page.
 # 是否激活点击页面的'爱心'效果，默认激活.
@@ -582,3 +582,8 @@ youpai:
 # 注：jsdelivr可以自动帮你生成.min版的js和css，所以你在上面设置js及css路径中可以直接写.min.xxx
 jsDelivr:
   url: # https://cdn.jsdelivr.net/gh/ialoe/BlogCode
+
+# Tidio online chat
+tidio:
+  enable: true
+  key: zhvppjcw8d7563bgrashedvyuemxi0il # 替换为你的Public Key
