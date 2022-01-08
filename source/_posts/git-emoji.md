@@ -29,3 +29,5 @@ git-emoji：git commit -m "massage :bug:"
 ```
 
 [more place see there](https://hooj0.github.io/git-emoji-guide/)
+
+![image-20220108174147327](https://qiniuyun.code520.com.cn/images/20220108174147.png)
