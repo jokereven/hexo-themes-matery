@@ -39,6 +39,12 @@
     "live2d-widget-model-tororo": "^1.0.5"
   },
   "devDependencies": {
+    "cz-conventional-changelog": "^3.3.0",
     "serve": "^13.0.2"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
