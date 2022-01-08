@@ -7,7 +7,7 @@ cover: false
 toc: true
 mathjax: false
 summary: git标准提交
-categories: 
+categories:
   - git
   - 标准
 tags:
@@ -17,7 +17,7 @@ keywords: 周靖
 essay: false
 date: 2022-01-08 13:33:40
 coverImg:
-password: 
+password:
 ---
 
 全局安装 `commitizen` 和 `cz-conventional-changelog`
@@ -26,6 +26,10 @@ password:
 
 ```
 npm install -g commitizen cz-conventional-changelog
+
+git add .
+
+git cz
 ```
 
 ![image-20220108163444035](https://qiniuyun.code520.com.cn/images/20220108163444.png)
