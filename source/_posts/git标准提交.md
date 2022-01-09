@@ -7,7 +7,7 @@ cover: false
 toc: true
 mathjax: false
 summary: git标准提交
-categories: 
+categories:
   - git
   - 标准
 tags:
@@ -15,9 +15,10 @@ tags:
   - 标准
 keywords: 周靖
 essay: false
+abbrlink: 57029
 date: 2022-01-08 13:33:40
 coverImg:
-password: 
+password:
 ---
 
 [项目地址](https://github.com/commitizen/cz-cli)

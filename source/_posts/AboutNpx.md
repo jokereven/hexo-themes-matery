@@ -1,7 +1,7 @@
 ---
 title: AboutNpx
 author: 周靖
-img: medias/featureimages/.jpg
+img: medias/featureimages/7.jpg
 top: false
 cover: false
 toc: true
