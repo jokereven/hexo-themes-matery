@@ -35,6 +35,11 @@ password:
 npm install -g commitizen cz-conventional-changelog
 ```
 
+## 初始化
+```
+commitizen init cz-conventional-changelog --save-dev --save-exact
+```
+
 ![image-20220108163444035](https://qiniuyun.code520.com.cn/images/20220108163444.png)
 
 ![image-20220108163511088](https://qiniuyun.code520.com.cn/images/20220108163511.png)
