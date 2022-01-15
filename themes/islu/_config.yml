@@ -80,6 +80,9 @@ menu:
       - name: vscode
         url: /vscode
         icon: fas fa-code-branch
+      - name: interview
+        url: /interview
+        icon: fab fa-meetup
 # Website start time.
 # 站点运行开始时间.
 time:
