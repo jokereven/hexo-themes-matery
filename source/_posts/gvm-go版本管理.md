@@ -9,11 +9,11 @@ mathjax: false
 summary: gvm-go版本管理
 categories:
   - gvm
-  - golang
+  - Golang
   - 版本管理
 tags:
   - gvm
-  - golang
+  - Golang
   - 版本管理
 keywords: 周靖
 essay: false
