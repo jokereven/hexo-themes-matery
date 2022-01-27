@@ -23,7 +23,7 @@ password:
 
 # 把 GoWeb 模板脚手架发布到 npm 仓库通过 npm 初始化项目
 
-## 首先打开npm官网： https://www.npmjs.com/
+## 首先打开 npm 官网： https://www.npmjs.com/
 
 ![image-20220125220547864](https://qiniuyun.code520.com.cn/images/20220125220555.png)
 
@@ -35,7 +35,7 @@ password:
 
 #### 创建&发布包
 
-#### 本地登陆npm
+#### 本地登陆 npm
 
 ![image-20220125222151053](https://qiniuyun.code520.com.cn/images/20220125222151.png)
 
@@ -43,9 +43,15 @@ password:
 
 ![image-20220125222220310](https://qiniuyun.code520.com.cn/images/20220125222220.png)
 
-#### 登陆之前需要切换npm源
+#### 登陆之前需要切换 npm 源
 
-[关于npm登陆 code 500的问题](https://blog.csdn.net/qq_29483485/article/details/117949698)
+```
+或者在提交时提交源
+
+npm publish --registry=https://registry.npmjs.org
+```
+
+[关于 npm 登陆 code 500 的问题](https://blog.csdn.net/qq_29483485/article/details/117949698)
 
 #### 这里需要 npm init -y
 
@@ -65,3 +71,10 @@ npm 包的名字就是name
 
 #### 这是全局安装之后的效果明天搞个命令行的版本
 
+#### 现在已经使用 node.js 把脚手架工具写出来了明天发布
+
+```
+create-golang-app
+```
+
+[create-golang-app](https://www.npmjs.com/package/create-golang-app)
