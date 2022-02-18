@@ -19,12 +19,13 @@ summary: HelloWorld
 ---
 
 友情声明: 本博客搭建基于[https://github.com/ialoe/hexo-themes-islu](https://github.com/ialoe/hexo-themes-islu)
-写代码的薛
-GoReactTaro 全栈程序员，持续分享编程干货
-技术栈：Golang、前端
+JokerEven
+Gopher程序员, 想你聊一聊代码
+技术栈：Golang、Node、React
 干货公众号：JokerEven
 微信小程序: JOKER EVEN
 GitHub：<https://github.com/jokereven>
 Gitee: <https://gitee.com/jokereven>
 我的个人博客：<http://code520.com.cn>
 其它站点: [文档学习](http://doc.code520.com.cn) | [主站](http://code520.com.cn)
+博客平台: [csdn](https://blog.csdn.net/ZHOU125disorder) [jianshu](https://www.jianshu.com/u/9ed09b2b6f61) [segmentfault](https://segmentfault.com/u/jokereven/) [掘金](https://juejin.cn/user/3650851646242327)
