@@ -149,7 +149,7 @@ music:
   server: tencent # require music platform: netease, tencent, kugou, xiami, baidu
   type: playlist # require song, playlist, album, search, artist
   id: 7269231710 # require song id / playlist id / album id / search keyword
-  fixed: false # 开启吸底模式
+  fixed: true # 开启吸底模式
   autoplay: false # 是否自动播放
   theme: '#000'
   loop: 'all' # 音频循环播放, 可选值: 'all', 'one', 'none'
@@ -253,7 +253,7 @@ postInfo:
   totalCount: true # 站点总文章字数
   min2read: true # 文章阅读时长
   readCount: true # 文章阅读次数
-  timeLag: false # 开启发布或更新距今时间间隔
+  timeLag: true # 开启发布或更新距今时间间隔
 
 # Whether to activate the 'love' effect of clicking on the page.
 # 是否激活点击页面的'爱心'效果，默认激活.

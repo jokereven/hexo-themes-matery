@@ -63,7 +63,7 @@
                 <% } %>
 
                 <% if (theme.postInfo.readCount && theme.busuanziStatistics && theme.busuanziStatistics.enable) { %>
-                    <div id="busuanzi_container_page_pv" class="info-break-policy">
+                    <div id="busuanzi_container_page_pv" class="info-break-policy" style="display: block !important;">
                         <i class="far fa-eye fa-fw"></i><%- __('readCount') %>:&nbsp;&nbsp;
                         <span id="busuanzi_value_page_pv"></span>
                     </div>
@@ -219,3 +219,18 @@
     <script type="text/javascript"
             src="<%- theme.jsDelivr.url %><%- url_for('/libs/codeBlock/codeShrink.js') %>"></script>
 <% } %>
+
+<script>
+    switch (document.readyState) {
+            case 'loading':
+                // 表示文档还在加载中,0即处于"正在加载"状态.
+                break;
+            case 'interactive':
+                // 文档已经结束了"正在加载"状态,DOM元素可以被访问.
+                // 但是像图像,样式表和框架等资源依然还在加载.
+                break;
+            case 'complete':
+                // 页面所有内容都已被完全加载.
+                break;
+        }
+</script>
