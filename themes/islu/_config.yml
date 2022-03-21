@@ -193,14 +193,15 @@ logTest: 周靖
 socialLink:
   enable: true
   github: https://github.com/jokereven
-  email: zjing125.cn@gmail.com
-  # facebook: https://www.facebook.com/profile.php?id=100076069135481
   twitter: https://twitter.com/cnzjing125
-  qq: 2178066226
   bilibili: https://space.bilibili.com/2104605936
-  # weibo: https://weibo.com/u/7582898613
-  zhihu: https://www.zhihu.com/people/jokereven
   rss: true # true、false
+
+  # qq: 2178066226
+  # weibo: https://weibo.com/u/7582898613
+  # zhihu: https://www.zhihu.com/people/jokereven
+  # email: zjing125.cn@gmail.com
+  # facebook: https://www.facebook.com/profile.php?id=100076069135481
 
 # Whether to activate the Post TOC, and Configure which title types are supported by TOC support.
 # You can add `toc: false` to the Front-matter of a post to turn off the TOC.
@@ -229,7 +230,7 @@ reward:
 # 是否激活复制文章时追加博客和作者的版权信息.
 copyright:
   enable: true
-  minCharNumber: 1024 # 至少复制多少个字符就追加版权信息.
+  minCharNumber: 9999 # 至少复制多少个字符就追加版权信息.
   description: 本文章著作权归作者所有，任何形式的转载都请注明出处。
 
 # Whether to activate the mathjax, this is a global configuration, but the post still does not open the mathjax rendering.
