@@ -604,3 +604,9 @@ Blog: [基于Docker搭建Hadoop集群之升级版](https://kiwenlau.com/2016/06/
 ![image-20220331164812420](https://qiniuyun.code520.com.cn/images/image-20220331164812420.png)
 
 ![image-20220331164836701](https://qiniuyun.code520.com.cn/images/image-20220331164836701.png)
+
+### 这里有一个问题虚拟机重新启动后需要重新启动hadoop
+
+#### 看上面博客的文章
+
+![image-20220406102823549](https://qiniuyun.code520.com.cn/images/image-20220406102823549.png)
