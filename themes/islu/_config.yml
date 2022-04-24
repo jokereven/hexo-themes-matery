@@ -86,6 +86,9 @@ menu:
       - name: 比赛
         url: /比赛
         icon: fab fa-twitch
+      - name: 多版本
+        url: /多版本
+        icon: fab fa-freebsd
 # Website start time.
 # 站点运行开始时间.
 time:
