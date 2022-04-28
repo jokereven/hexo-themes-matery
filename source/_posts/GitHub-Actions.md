@@ -7,7 +7,7 @@ cover: false
 toc: true
 mathjax: false
 summary: GitHub-Actions
-categories: 
+categories:
   - GitHub
   - Actions
   - CICD
@@ -19,6 +19,7 @@ tags:
   - 自动化
 keywords: 周靖
 essay: false
+abbrlink: 32732
 date: 2022-04-27 21:08:10
 coverImg:
 password:

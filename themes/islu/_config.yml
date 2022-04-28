@@ -204,9 +204,9 @@ socialLink:
   rss: true # true、false
 
   # qq: 2178066226
+  # email: zjing125.cn@gmail.com
   # weibo: https://weibo.com/u/7582898613
   # zhihu: https://www.zhihu.com/people/jokereven
-  # email: zjing125.cn@gmail.com
   # facebook: https://www.facebook.com/profile.php?id=100076069135481
 
 # Whether to activate the Post TOC, and Configure which title types are supported by TOC support.
@@ -417,7 +417,7 @@ baiduAnalytics:
 
 # 百度搜索资源平台提交链接
 ## 此处开启要配置config.yml中的baidu_url_submit和deploy
-baiduPush: false
+baiduPush: true
 
 # The used front-end library can be replaced with the corresponding CDN address as needed,
 # If the specific version is not specified below, you can use the latest version.
@@ -522,7 +522,7 @@ canvas_nest:
 
 # 背景静止彩带.
 ribbon:
-  enable: false
+  enable: true
   size: 150 # 彩带大小, 默认: 90.
   alpha: 0.6 # 彩带透明度 (0 ~ 1), 默认: 0.6.
   zIndex: -1 # 背景的z-index属性，css属性用于控制所在层的位置, 默认: -1.
@@ -541,7 +541,8 @@ sharejs:
 # addthis文章分享模块.
 addthis:
   enable: false
-  pubid: # 前往https://www.addthis.com/获取
+  pubid: # //s7.addthis.com/js/300/addthis_widget.js#pubid= ra-626a352e0b358a25
+  # 前往https://www.addthis.com/获取
 
 # 打字效果副标题.
 # 如果有符号 ‘ ，请在 ’ 前面加上 \

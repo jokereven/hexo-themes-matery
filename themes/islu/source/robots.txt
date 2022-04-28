@@ -1,0 +1,5 @@
+User-agent: *
+Crawl-delay: 30
+
+Sitemap: https://blog.code520.com.cn/sitemap.xml
+Sitemap: https://blog.code520.com.cn/baidu_sitemap.xml

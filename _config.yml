@@ -169,9 +169,9 @@ lazyload:
 
 # hexo-baidu-url-submit  百度主动推送
 baidu_url_submit:
-  count: 80 # 提交最新的一个链接
+  count: 100 # 提交最新的一个链接
   host: blog.code520.com.cn # 在百度站长平台中注册的域名
-  token: # 请注意这是您的秘钥， 所以请不要把博客源代码发布在公众仓库里!
+  token: ySoeLoqwVz8VLMc5 # 请注意这是您的秘钥， 所以请不要把博客源代码发布在公众仓库里!
   path: baidu_urls.txt # 文本文档的地址， 新链接会保存在此文本文档里
 
 # 看板娘
@@ -217,3 +217,9 @@ feed:
   content_limit: 140
   content_limit_delim: ' '
   order_by: -date
+
+# 自动生成sitemap
+sitemap:
+  path: sitemap.xml
+baidusitemap:
+  path: baidusitemap.xml
