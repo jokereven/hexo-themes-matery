@@ -8,7 +8,6 @@ toc: true
 mathjax: false
 summary: GitHub-Actions
 categories:
-  - GitHub
   - Actions
   - CICD
   - 自动化
@@ -36,4 +35,3 @@ password:
 #### 这里我用了我github小号测试: https://github.com/zjing125/github-actions/
 
 #### 大号: [@jokereven](https://github.com/jokereven)
-

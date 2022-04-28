@@ -165,7 +165,7 @@ abbrlink:
 lazyload:
   enable: true
   onlypost: true # 是否只对文章的图片做懒加载
-  loadingImg: ./medias/detail/load.gif # eg ./images/loading.gif
+  loadingImg: https://blog.code520.com.cn/medias/detail/load.gif # eg ./images/loading.gif
 
 # hexo-baidu-url-submit  百度主动推送
 baidu_url_submit:

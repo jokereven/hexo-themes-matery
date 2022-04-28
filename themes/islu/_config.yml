@@ -89,6 +89,13 @@ menu:
       - name: 多版本
         url: /多版本
         icon: fas fa-code-branch
+      - name: 美化
+        url: /美化
+        icon: fas fa-battery-half
+      - name: 未来计划
+        url: /未来计划
+        icon: fas fa-clock
+
 # Website start time.
 # 站点运行开始时间.
 time:
@@ -189,8 +196,9 @@ recommend:
 
 # Configure website favicon and LOGO
 # 配置网站favicon和网站LOGO
-favicon: /medias/detail/logo.png
-logo: /medias/detail/logo.png
+# TODO CDN 缓存导致访问网站的logo一直是之前的, 没更新不知道什么鬼
+favicon: /medias/logo.png
+logo: /medias/logo.png
 logTest: 周靖
 
 # The configurations of the second line of home banner
@@ -446,7 +454,8 @@ libs:
     search: /libs/search/search.js
     lightgallery: /libs/lightGallery/js/lightgallery-all.min.js # V1.6.11
     clicklove: /libs/others/clicklove.js
-    busuanzi: /libs/others/busuanzi.pure.mini.js
+    # busuanzi: /libs/others/busuanzi.pure.mini.js
+    busuanzi: //busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js
     aplayer: /libs/aplayer/APlayer.min.js
     dplayer: /libs/dplayer/DPlayer.min.js
     crypto: /libs/cryptojs/crypto-js.min.js
