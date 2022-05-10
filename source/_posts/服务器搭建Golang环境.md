@@ -84,8 +84,8 @@ wget https://dl.google.com/go/go1.17.3.linux-amd64.tar.gz(这里速度可能太�
 
    import "fmt"
 
-   package main(){
-    fmt.Println("HelloWorld")
+   func main(){
+    fmt.Println("Hello World")
    }
    ```
 
