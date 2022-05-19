@@ -63,7 +63,7 @@
                 <% } %>
 
                 <% if (theme.postInfo.readCount && theme.busuanziStatistics && theme.busuanziStatistics.enable) { %>
-                    <div id="busuanzi_container_page_pv" class="info-break-policy" style="display: block !important;">
+                    <div id="busuanzi_container_page_pv" class="info-break-policy">
                         <i class="far fa-eye fa-fw"></i><%- __('readCount') %>:&nbsp;&nbsp;
                         <span id="busuanzi_value_page_pv"></span>
                     </div>
@@ -232,5 +232,10 @@
             case 'complete':
                 // 页面所有内容都已被完全加载.
                 break;
+        }
+
+        window.onload = function(){
+            var busuanzi_container_page_pv = document.getElementById("busuanzi_container_page_pv");
+            busuanzi_container_page_pv.style.display="block";
         }
 </script>
