@@ -92,6 +92,9 @@ menu:
       - name: 美化
         url: /美化
         icon: fas fa-battery-half
+      - name: git
+        url: /git
+        icon: fas fa-code-branch
       - name: 未来计划
         url: /未来计划
         icon: fas fa-clock
