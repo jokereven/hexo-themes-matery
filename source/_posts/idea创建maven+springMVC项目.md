@@ -83,3 +83,11 @@ password:
 
 Powered By [Valine](https://valine.js.org/)
 v1.4.14
+
+
+#### idea 热加载..
+[IDEA + Spring Boot 的三种热加载方案，看完弄懂，不用加班~](https://cloud.tencent.com/developer/article/1683029)
+
+[springboot pom.xml报错](https://segmentfault.com/q/1010000016566732)
+
+[IntelliJ IDEA自动更新资源文件](https://blog.csdn.net/weixin_34109408/article/details/92050854)

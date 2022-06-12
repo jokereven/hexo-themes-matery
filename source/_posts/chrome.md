@@ -23,6 +23,6 @@ password:
 1. 现成(直接拍)
 2. 帮忙注册(提供以下信息)
 
-![image-20211107214340718](http://qiniuyun.code520.com.cn/images20211107214340.png)
+![image-20211107214340718](http://qiniuyun.code520.com.cn/images/20211107214340.png)
 
-![image-20211107214436188](http://qiniuyun.code520.com.cn/images20211107214436.png)
+![image-20211107214436188](http://qiniuyun.code520.com.cn/images/20211107214436.png)

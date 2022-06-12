@@ -29,27 +29,27 @@ password:
 
 ### 自己领取一下
 
-![image-20211021204953992](http://qiniuyun.code520.com.cn//images/202110212049434.png)
+![image-20211021204953992](http://qiniuyun.code520.com.cn/images/202110212049434.png)
 
 ## 进入管理页面
 
-![image-20211021205044247](http://qiniuyun.code520.com.cn//images/202110212050567.png)
+![image-20211021205044247](http://qiniuyun.code520.com.cn/images/202110212050567.png)
 
 ## 进行初始化(这里按照默认的就好了)
 
-![image-20211021205145000](http://qiniuyun.code520.com.cn//images/202110212051302.png)
+![image-20211021205145000](http://qiniuyun.code520.com.cn/images/202110212051302.png)
 
 ## 经过漫长的等待
 
 ![](https://i04piccdn.sogoucdn.com/6452cfb48b862b22)
 
-![image-20211021211332702](http://qiniuyun.code520.com.cn//images/202110212113016.png)
+![image-20211021211332702](http://qiniuyun.code520.com.cn/images/202110212113016.png)
 
 ### 访问之后修改一下用户名密码就是你安装操作系统时输入的那个密码
 
 ### 修改之后登入
 
-![image-20211021221343132](http://qiniuyun.code520.com.cn//images/202110212213413.png)
+![image-20211021221343132](http://qiniuyun.code520.com.cn/images/202110212213413.png)
 
 ### 宝塔只是为了方便管理
 
@@ -63,7 +63,7 @@ password:
 
 ### 安装nginx
 
-![image-20211021223606941](http://qiniuyun.code520.com.cn//images/202110212236365.png)
+![image-20211021223606941](http://qiniuyun.code520.com.cn/images/202110212236365.png)
 
 ### 安装一下
 
@@ -71,7 +71,7 @@ password:
 
 ### 浏览器访问ip
 
-![image-20211021223744422](http://qiniuyun.code520.com.cn//images/202110212237836.png)
+![image-20211021223744422](http://qiniuyun.code520.com.cn/images/202110212237836.png)
 
 ### ok
 
@@ -125,7 +125,7 @@ server
 
 ### 上传文件
 
-![image-20211021225645452](http://qiniuyun.code520.com.cn//images/202110212256774.png)
+![image-20211021225645452](http://qiniuyun.code520.com.cn/images/202110212256774.png)
 
 ### 在usr下的share下创建nginx文件夹z
 
@@ -133,8 +133,8 @@ server
 
 ### 在downloads文件夹下上传文件
 
-![image-20211021230910118](http://qiniuyun.code520.com.cn//images/202110212309492.png)
+![image-20211021230910118](http://qiniuyun.code520.com.cn/images/202110212309492.png)
 
 ### 效果
 
-![image-20211021230939935](http://qiniuyun.code520.com.cn//images/202110212309282.png)
+![image-20211021230939935](http://qiniuyun.code520.com.cn/images/202110212309282.png)
