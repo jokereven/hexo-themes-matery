@@ -8,10 +8,10 @@ toc: true
 mathjax: false
 summary: docker搭建code-server
 categories:
-  - docker
+  - Docker
   - code-server
 tags:
-  - docker
+  - Docker
   - code-server
 keywords: 周靖
 essay: false

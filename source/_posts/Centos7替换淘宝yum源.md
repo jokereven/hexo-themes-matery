@@ -7,10 +7,10 @@ cover: false
 toc: true
 mathjax: false
 summary: Centos7替换淘宝yum源
-categories: Yum
+categories: yum
 tags:
-  - Centos7
-  - Yum
+  - centos
+  - yum
 keywords: 周靖
 essay: false
 abbrlink: 56054

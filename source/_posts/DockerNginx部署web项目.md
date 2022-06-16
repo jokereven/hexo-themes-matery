@@ -9,11 +9,11 @@ mathjax: false
 summary: DockerNginx部署web项目
 categories:
   - Docker
-  - Nginx
+  - nginx
   - 部署
 tags:
   - Docker
-  - Nginx
+  - nginx
   - 部署
 keywords: 周靖
 essay: false
@@ -110,4 +110,3 @@ npm stop webhook.js
 ![image-20220428215959399](https://qiniuyun.code520.com.cn/images/image-20220428215959399.png)
 
 ### 关于那个域名直接访问的我没有搞懂2333
-

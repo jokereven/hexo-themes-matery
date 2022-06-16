@@ -7,8 +7,12 @@ cover: false
 toc: true
 mathjax: false
 summary: windows-NFS共享服务
-categories: '-windows -NFS'
-tags: '-windows -NFS'
+categories:
+  -Windows
+  - NFS
+tags:
+  -Windows
+  -NFS
 keywords: 周靖
 essay: false
 abbrlink: 38578
@@ -92,4 +96,3 @@ password:
 https://zerlong.com/537.html
 
 https://www.cnblogs.com/zengzhihua/p/9890106.html
-

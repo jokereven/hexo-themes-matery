@@ -8,10 +8,10 @@ toc: true
 mathjax: false
 summary: react-route
 categories:
-  - react
+  - React
   - route
 tags:
-  - react
+  - React
   - route
 keywords: 周靖
 essay: false

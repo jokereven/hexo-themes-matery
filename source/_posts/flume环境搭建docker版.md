@@ -10,11 +10,11 @@ summary: flume环境搭建docker版
 categories:
   - flume
   - 环境
-  - docker
+  - Docker
 tags:
   - flume
   - 环境
-  - docker
+  - Docker
 keywords: 周靖
 essay: false
 abbrlink: 38274

@@ -7,9 +7,9 @@ cover: false
 toc: false
 mathjax: false
 summary: Vscode网页版搭建
-categories: Vscode
+categories: vscode
 tags:
-  - Vscode
+  - vscode
 keywords: 周靖
 essay: false
 abbrlink: 4910

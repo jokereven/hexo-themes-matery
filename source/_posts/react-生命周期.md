@@ -8,10 +8,10 @@ toc: true
 mathjax: false
 summary: react-生命周期
 categories:
-  - react
+  - React
   - 生命周期
 tags:
-  - react
+  - React
   - 生命周期
 keywords: 周靖
 essay: false

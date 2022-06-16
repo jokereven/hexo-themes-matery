@@ -8,10 +8,10 @@ toc: true
 mathjax: false
 summary: 关于github多用户
 categories:
-  - github
+  - Github
   - git
 tags:
-  - github
+  - Github
   - git
 keywords: 周靖
 essay: false
@@ -56,4 +56,3 @@ IdentityFile C:\\Users\\jokereven\\.ssh\id_rsa_zjing125
 PreferredAuthentications publickey
 User zjing125
 ```
-

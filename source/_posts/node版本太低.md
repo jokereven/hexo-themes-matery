@@ -7,9 +7,9 @@ cover: false
 toc: true
 mathjax: false
 summary: node版本太低
-categories: node
+categories: Node
 tags:
-  - node
+  - Node
 keywords: 周靖
 essay: false
 abbrlink: 26733

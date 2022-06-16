@@ -12,7 +12,7 @@ categories:
   - CICD
   - 自动化
 tags:
-  - GitHub
+  - Github
   - Actions
   - CICD
   - 自动化

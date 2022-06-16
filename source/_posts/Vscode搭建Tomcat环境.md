@@ -8,11 +8,11 @@ toc: true
 mathjax: false
 summary: Vscode搭建Tomcat环境
 categories:
-  - Vscoded
+  - vscode
   - Tomcat
   - Java
 tags:
-  - Vscoded
+  - vscode
   - Tomcat
   - Java
 keywords: 周靖

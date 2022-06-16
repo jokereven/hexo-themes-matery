@@ -7,9 +7,9 @@ cover: false
 toc: true
 mathjax: false
 summary: Git多用户配置管理器
-categories: Git
+categories: git
 tags:
-  - Git
+  - git
 keywords: 周靖
 essay: false
 abbrlink: 47271
@@ -51,4 +51,3 @@ Git多用户配置: [https://www.cnblogs.com/cangqinglang/p/12462272.html](https
 ## 这里先配置好git多账号管理
 
 ## 之后使用gum管理git账号
-

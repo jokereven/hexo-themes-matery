@@ -9,10 +9,10 @@ mathjax: false
 summary: react-hook
 categories:
   - hook
-  - react
+  - React
 tags:
   - hook
-  - react
+  - React
 keywords: 周靖
 essay: false
 abbrlink: 25152
@@ -24,4 +24,3 @@ password:
 # react-hook
 
 [Hook 简介](https://react.docschina.org/docs/hooks-intro.html)
-
