@@ -68,6 +68,9 @@ menu:
       - name: chat
         url: /chat
         icon: fab fa-twitch
+      - name: vim
+        url: /vim
+        icon: fas fa-code-branch
   universe:
     icon: fas fa-globe-asia
     children:
