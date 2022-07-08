@@ -1,6 +1,6 @@
 [
 	{
-		"avatar": "https://portrait.gitee.com/uploads/avatars/user/2745/8237078_moqqll_1634211604.png!avatar200",
+		"avatar": "https://portrait.gitee.com/uploads/avatars/user/2745/8237078_moqqll_1634211604.png",
 		"name": "莫克",
 		"introduction": "一枚乐于、善于和产品、运营、业务小伙伴头脑风暴、协作共创的工程师。",
 		"url": "https://gitee.com/dmokel",
@@ -14,7 +14,7 @@
 		"title": "访问主页"
 	},
 	{
-		"avatar": "https://portrait.gitee.com/uploads/avatars/user/2945/8837544_jokereven_1633778212.png!avatar100",
+		"avatar": "https://blog.code520.com.cn/medias/logo.png",
 		"name": "周靖",
 		"introduction": "生活到处是磨难,为难我的人多了,你算老几。",
 		"url": "http://code520.com.cn",
@@ -35,94 +35,17 @@
 		"title": "访问主页"
 	},
 	{
-		"avatar": "https://cdn.jsdelivr.net/gh/amehime/shoka@latest/images/avatar.jpg",
-		"name": "優萌初華",
-		"introduction": "琉璃的医学 & 编程笔记",
-		"url": "https://shoka.lostyu.me/",
+		"avatar": "https://pic1.zhimg.com/v2-8ac1f09a30584505cb0455c6b0c75080_xll.jpg",
+		"name": "Anthony Fu",
+		"introduction": "船在港湾里是安全的，但那不是造船的目的。 ",
+		"url": "https://antfu.me/",
 		"title": "访问主页"
 	},
 	{
-		"avatar": "https://gitee.com/yafine66/blogimage/raw/master/img/me.jpg",
-		"name": "过客～励む",
-		"introduction": "你现在的努力，是为了以后有更多的选择!",
-		"url": "https://yafine-blog.cn",
+		"avatar": "https://pic2.zhimg.com/v2-2a2bfb7617ff3566b4a5610a655bcc65_xll.jpg",
+		"name": "黄玄",
+		"introduction": "略懂计算机技术与艺术的斜杠不动青年",
+		"url": "https://huangxuan.me/",
 		"title": "访问主页"
-	},
-	{
-		"avatar": "https://cdn.jsdelivr.net/gh/xiaopengand/xiaopengand.github.io/medias/avatar.jpg",
-		"name": "Xpand",
-		"introduction": "月亮很亮,亮也没用",
-		"url": "https://www.qwas.top",
-		"title": "前去观摩"
-	},
-	{
-		"avatar": "https://hesifan.top/medias/avatar.jpg",
-		"name": "凡尘纪",
-		"introduction": "念念不忘 必有回响",
-		"url": "https://hesifan.top",
-		"title": "访问主页"
-	},
-	{
-		"avatar": "https://mx142.cn/medias/logo.png",
-		"name": "Mx",
-		"introduction": "一个分享知识和快乐的地方！",
-		"url": "https://mx142.cn",
-		"title": "访问主页"
-	},
-	{
-		"avatar": "https://nekodeng.gitee.io/medias/avatar.jpg",
-		"name": "itsNekoDeng",
-		"introduction": "十万伏特皮卡丘，梦想是世界和平，想要发光发热",
-		"url": "https://nekodeng.gitee.io",
-		"title": "访问主页"
-	},
-	{
-		"avatar": "https://cdn.jsdelivr.net/gh/Tajang-ctf/blog_images/avatar.jpg",
-		"name": "Tajang",
-		"introduction": "专注于网络安全与CTF",
-		"url": "https://www.ctfking.com",
-		"title": "前去学习"
-	},
-	{
-		"avatar": "https://ying626.top/img/headPortrait.jpg",
-		"name": "郭祥迎Blog",
-		"introduction": "热爱生活，热爱交友",
-		"url": "https://ying626.top",
-		"title": "访问主页"
-	},
-	{
-		"avatar": "https://zfe.space/images/headimage.png",
-		"name": "小冰博客",
-		"introduction": "做个有梦想的人！",
-		"url": "https://zfe.one",
-		"title": "访问主页"
-	},
-	{
-		"avatar": "https://q4.qlogo.cn/headimg_dl?dst_uin=1444440144&spec=100",
-		"name": "Ch1e'sBlog",
-		"introduction": "网络安全爱好者",
-		"url": "https://qqblog.top",
-		"title": "前去观摩"
-	},
-	{
-		"avatar": "https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=3216471116,1483332883&fm=26&gp=0.jpg",
-		"name": "SAM ‘S BOLG",
-		"introduction": "一个杂七杂八的博客",
-		"url": "http://sam1314.xyz:1314",
-		"title": "前去观摩"
-	},
-	{
-		"avatar": "https://www.izhaoo.com/images/icons/favicon-32x32.png",
-		"name": "zhaoo's Blog",
-		"introduction": "izhaoo",
-		"url": "https://www.izhaoo.com/",
-		"title": "前去观摩"
-	},
-	{
-		"avatar": "https://q1.qlogo.cn/g?b=qq&nk=2085886325&s=640",
-		"name": "不冷博客",
-		"introduction": "听喜欢的歌，做喜欢的事",
-		"url": "https://www.buleng.xyz",
-		"title": "前去观摩"
 	}
 ]

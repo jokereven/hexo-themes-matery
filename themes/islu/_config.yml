@@ -182,7 +182,7 @@ music:
 video:
   enable: true
   showTitle: true # 是否显示title
-  title: Love Me # title名
+  title: 因为我对这土地爱的深沉 # title名
   url: https://jsmov2.a.yximgs.com/upic/2020/06/18/21/BMjAyMDA2MTgyMTQzNDRfMTc3MTUzMDUwN18zMDcyNTk4ODMwM18yXzM=_b_Bff62965761397a0972c2fee42e2b2af2.mp4
   thumbnails:
   height: # 如：400
@@ -285,7 +285,7 @@ clicklove:
 # 在”关于”页面中配置个人信息，包括头像、职业和个人介绍.
 profile:
   avatar: /medias/avatar.jpg # 头像
-  career: 🎓 在校大专人 # 职业
+  career: 🎓 Gopher # 职业
   introduction: 你要知道,人没有欲望就没有弱点。弱点,永远在想得到某样东西的路上。 # 介绍
 
 # config my projects informations in about page.
@@ -298,12 +298,12 @@ myProjects:
       icon: fas fa-database
       iconBackground: 'linear-gradient(to bottom right, #F06292 0%, #EF5350 100%)'
       url: https://github.com/jokereven/jianshu
-      desc: 初学React时写的demo
+      desc: first learn react
     模仿网易云音乐PC端:
       icon: fas fa-file-alt
       iconBackground: 'linear-gradient(to bottom right, #66BB6A 0%, #81C784 100%)'
       url: https://github.com/jokereven/cloud-music
-      desc: 深度学习React(页面待美化...)
+      desc: 用(REACT)写了个网易云
     bluebell:
       icon: fas fa-file-alt
       iconBackground: 'linear-gradient(to bottom right, #29B6F6 0%, #1E88E5 100%)'
@@ -341,11 +341,11 @@ mySkills:
 myGallery:
   enable: true
   data:
+    - /medias/featureimages/1.jpg
+    - /medias/featureimages/3.jpg
     - /medias/featureimages/6.jpg
     - /medias/featureimages/7.jpg
-    - /medias/featureimages/8.jpg
-    - /medias/featureimages/9.jpg
-    - /medias/featureimages/10.jpg
+    - /medias/featureimages/17.jpg
     - /medias/featureimages/11.jpg
 
 # Whether to display post-calender in the `archive` page
@@ -441,6 +441,7 @@ libs:
   css:
     islu: /css/islu.css
     mycss: /css/my.css
+    mouse: /css/mouse.css
     fontAwesome: /libs/awesome/css/all.css # V5.11.1
     materialize: /libs/materialize/materialize.min.css # 1.0.0
     aos: /libs/aos/aos.css
@@ -569,8 +570,8 @@ subtitle:
   typeSpeed: 100 # 打字速度
   backSpeed: 50 # 删除速度
   sub:
-    - 生活到处是磨难,为难我的人多了,你算老几.
-    - Life is full of tribulations, many people embarrass me, who are you.
+    - 船在港湾里是安全的，但那不是造船的目的。
+    - A ship in harbor is safe, but that is not what ships are built for.
 
 # 手机二级菜单.
 navMenu:

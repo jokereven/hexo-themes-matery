@@ -1,0 +1,14 @@
+/* 鼠标样式 */
+body {
+	cursor: url(https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/cursor/normal.cur),
+		default;
+}
+a,
+img {
+	cursor: url(https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/cursor/ayuda.cur),
+		default;
+}
+p {
+	cursor: url(https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/cursor/texto.cur),
+		default;
+}
