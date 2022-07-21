@@ -24,3 +24,95 @@ vim Golf（上）: [https://www.bilibili.com/video/BV1zY4y1z7zz](https://www.bil
 ruby国内镜像: [https://gems.ruby-china.com/](https://gems.ruby-china.com/)
 
 Ruby 安装 - Windows: [https://www.runoob.com/ruby/ruby-installation-windows.html](https://www.runoob.com/ruby/ruby-installation-windows.html)
+
+# vim 笔记
+
+## 普通模式
+
+上	下	左	右
+
+h	j	k	l
+
+
+
+下一个单词开头	前一个单词的开头
+
+w(word)	b(begin)
+
+
+
+文档最上方	文档最下方
+
+gg	G
+
+
+
+向上翻页	向下翻页
+
+ctrl + u	ctrl + d
+
+
+
+移动到最近的字母
+
+fr(移动到最近的r上往后找)
+
+
+
+复制单词
+
+yaw == Yank All Words
+
+
+
+向上复制四行
+
+y4k
+
+
+
+删除当前行
+
+dd
+
+
+
+删除当前行和下一行
+
+dj
+
+
+
+删除到r位置
+
+dfr
+
+
+
+撤销
+
+u
+
+
+
+当前光标之前输入	当前光标之后输入
+
+i a
+
+
+
+从行首输入	从行末输入
+
+I	A
+
+
+
+删除当前单词并进入插入模式	删除整行进入插入模式
+
+caw	cc
+
+## 可视模式
+
+进入输入模式之后与普通模式的操作基本一样
+
+v
