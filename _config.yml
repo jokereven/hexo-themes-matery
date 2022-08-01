@@ -121,7 +121,13 @@ deploy:
   - type: git
     repo: even@121.4.48.188:/home/even/blog.git # 此处为共有仓库名
     branch: master
-#  - type: baidu_url_submitter # 若开启百度主动提交则可取消注释
+  - type: baidu_url_submitter # 若开启百度主动提交则可取消注释
+
+baidu_url_submitter:
+  count: 100               # 提交最新的多少个链接
+  host: blog.code520.com.cn    # 在百度站长平台中添加的域名
+  token: ySoeLoqwVz8VLMc5      # 秘钥
+  path: baidu_urls.txt   # 文本文档的地址， 新链接会保存在此文本文档里
 
 # 搜索插件 npm install hexo-generator-search --save
 search:

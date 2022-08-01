@@ -2,7 +2,7 @@
 <script type="text/javascript" src="<%- theme.jsDelivr.url %><%- url_for(theme.libs.js.echarts) %>"></script>
 <script type="text/javascript">
     let radarChart = echarts.init(document.getElementById('category-radar'));
-
+    radarChart.style.display = "none"
     <%
         var categories = site.categories;
 
