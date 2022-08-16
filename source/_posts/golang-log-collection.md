@@ -20,7 +20,7 @@ password:
 
 # golang-log-collection
 
-<iframe src="//player.bilibili.com/player.html?aid=288508467&bvid=BV1Df4y1C7o5&cid=280349448" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" height="456px"> </iframe>
+<iframe src="//player.bilibili.com/player.html?aid=288508467&bvid=BV1Df4y1C7o5&cid=280349448" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 
 ## 最近完成了李文周老师的日志收集项目（golang-log-collection）
 
