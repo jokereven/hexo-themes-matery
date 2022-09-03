@@ -21,6 +21,18 @@ password:
 
 # 打造最丝滑的 vscode
 
+Remote-SSH: 我的开发环境: [https://zhuanlan.zhihu.com/p/117494501](https://zhuanlan.zhihu.com/p/117494501)
+
+ssh连接所生成的known_hosts出现的问题: [https://blog.csdn.net/polaris_119/article/details/103371710](https://blog.csdn.net/polaris_119/article/details/103371710)
+
+SSH 免密登录是怎么玩儿的?:[https://zhuanlan.zhihu.com/p/28423720](https://zhuanlan.zhihu.com/p/28423720)
+
+## vscode 连接服务器
+
+![image-20220816163649613](https://qiniuyun.code520.com.cn/images/image-20220816163649613.png)
+
+在服务器上写代码: [/posts/49174.html](/posts/49174.html)
+
 ## 环境安装
 
 ### Git
