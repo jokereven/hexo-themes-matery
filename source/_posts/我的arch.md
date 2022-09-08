@@ -28,12 +28,9 @@ password:
 
 之后搞个性能高点的黑苹果2233.
 
-
-
 先把电脑上的东西整理一下.
 
 首先是一些文档.
-
 
 关于一些软件的化把一些常用的搞一下 docker 网易云 微信 qq typora picgo...
 
@@ -51,3 +48,5 @@ i have use about 2 day, when i have some app need to install, i will to find it'
 also some app can't use for linux.
 place.
 now i will to use the windows by docker.
+
+![image](https://user-images.githubusercontent.com/73232691/189167404-e527e06d-5609-45f5-a616-e55de9e8e892.png)
