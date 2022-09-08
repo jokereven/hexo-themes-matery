@@ -35,7 +35,6 @@ password:
 首先是一些文档.
 
 
-
 关于一些软件的化把一些常用的搞一下 docker 网易云 微信 qq typora picgo...
 
 这里我直接截个图2233.
@@ -47,3 +46,8 @@ password:
 reference
 
 https://arch.icekylin.online/
+
+i have use about 2 day, when i have some app need to install, i will to find it's not fell so good.
+also some app can't use for linux.
+place.
+now i will to use the windows by docker.
