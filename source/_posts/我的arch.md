@@ -7,12 +7,13 @@ cover: false
 toc: true
 mathjax: false
 summary: 我的arch
-categories: 
+categories:
   - arch
 tags:
   - arch
 keywords: 周靖
 essay: false
+abbrlink: 64710
 date: 2022-09-05 14:47:14
 coverImg:
 password:
@@ -44,9 +45,6 @@ reference
 
 https://arch.icekylin.online/
 
-i have use about 2 day, when i have some app need to install, i will to find it's not fell so good.
-also some app can't use for linux.
-place.
-now i will to use the windows by docker.
+我差不多用了二天, 也遇到了许多问题, 最终决定放弃 manjaro.
 
 ![image](https://user-images.githubusercontent.com/73232691/189167404-e527e06d-5609-45f5-a616-e55de9e8e892.png)
