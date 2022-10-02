@@ -15,3 +15,10 @@ date: 2022-05-05 21:30:38
 
 [技术小白如何搭建Mastodon实例（不再推荐）](https://pullopen.github.io/%E5%9F%BA%E7%A1%80%E6%90%AD%E5%BB%BA/2020/07/19/How-to-build-a-mastodon-instance.html)
 
+开发环境
+
+vim哲学
+
+vscode
+
+开发环境

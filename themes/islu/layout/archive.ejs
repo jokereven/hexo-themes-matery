@@ -162,7 +162,7 @@
                             <a href="<%- url_for(post.path) %>">
                                 <div class="card-image">
                                     <% if (post.img) { %>
-                                        <img src="<%= post.img %>" class="responsive-img" alt="<%- post.title %>">
+                                        <img src="/<%= post.img %>" class="responsive-img" alt="<%- post.title %>">
                                     <% } else { %>
                                         <%
                                             var len = featureImages.length;

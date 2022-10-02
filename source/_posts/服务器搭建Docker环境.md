@@ -39,7 +39,7 @@ Resolving mirrors.aliyun.com (mirrors.aliyun.com)... 119.96.77.242, 119.96.77.23
 Connecting to mirrors.aliyun.com (mirrors.aliyun.com)|119.96.77.242|:443... connected.
 HTTP request sent, awaiting response... 200 OK
 Length: 2081 (2.0K) [application/octet-stream]
-Saving to: ‘/etc/yum.repos.d/docker-ce.repo’
+Saving to: '/etc/yum.repos.d/docker-ce.repo'
 
 100%[==================================================================================================>] 2,081       --.-K/s   in 0s
 ```
