@@ -148,14 +148,14 @@ chown even:even -R blog.git
 ```js
 vim blog.git/hooks/post-receive
 
-# /bin/sh
+#/bin/sh
 git --work-tree=/home/hexo --git-dir=/home/even/blog.git checkout -f
 ```
 
 #### `7. 修改权限`
 
 ```js
-chmod + x / home / even / blog.git / hooks / post - receive;
+chmod +x /home/even/blog.git/hooks/post-receive;
 ```
 
 #### `8. 在windows10本地hexo根目录修改_config.yml文件`
