@@ -197,7 +197,7 @@ live2d:
     use: live2d-widget-model-koharu # 模型名称
   display:
     superSample: 2 # 超采样等级
-    position: left # 显示位置：左或右
+    position: left # 显示位置: 左或右
     width: 178 # 显示模型的canvas画布的宽度
     height: 360 # 显示模型的canvas画布的高度
     hOffset: 45 # canvas画布的水平偏移量
