@@ -1,3 +1,3 @@
-# 个人博客
+# Hexo Blog
 
-本博客基于: https://github.com/ialoe/hexo-themes-matery-pro 搭建
+fork from https://github.com/ialoe/hexo-themes-matery-pro

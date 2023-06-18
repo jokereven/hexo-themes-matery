@@ -3,12 +3,15 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 周靖 #这是网站标题
-subtitle: gnorev #这是网站副标题subtitle
-# 下面两个description,keywords，需要填上，如果想让搜索引擎收录，这个做SEO优化必不可忽视的两个属性
-description: 主要记录生活的点点滴滴,分享学习上的经验知识,以求在茫茫人海中留下些许足迹. #网站描述
+title: jokereven #这是网站标题
+subtitle: 0xjokereven #这是网站副标题subtitle
+# 下面两个description, keywords, 需要填上, 如果想让搜索引擎收录, 这个做SEO优化必不可忽视的两个属性
+description: 主要记录生活的点点滴滴, 分享学习上的经验知识, 以求在茫茫人海中留下些许足迹. #网站描述
 keywords: [
     周靖,
+    Web3,
+    FrontEnd,
+    BackEnd,
     Golang,
     Html,
     Css,
@@ -19,15 +22,15 @@ keywords: [
     Java,
     Python,
     个人博客,
-    JokerEven,
+    jokereven,
     独立开发者,
   ] #网站的关键词
-author: 周靖 #作者，文章版权所显示的
-language: zh-CN #网站语言，不填写，默认为英文
-timezone: #时区，可以不填写
+author: 周靖 #作者, 文章版权所显示的
+language: zh-CN #网站语言, 不填写, 默认为英文
+timezone: #时区, 可以不填写
 
 # URL
-## 在这里设置你的网站url。例如，如果你使用GitHub页面，设置url为"https://username.github.io/project"
+## 在这里设置你的网站url。例如, 如果你使用GitHub页面, 设置url为"https://username.github.io/project"
 url: https://blog.code520.com.cn
 permalink: posts/:abbrlink.html
 permalink_defaults:
@@ -124,10 +127,10 @@ deploy:
   - type: baidu_url_submitter # 若开启百度主动提交则可取消注释
 
 baidu_url_submitter:
-  count: 100               # 提交最新的多少个链接
+  count: 120              # 提交最新的多少个链接
   host: blog.code520.com.cn    # 在百度站长平台中添加的域名
   token: ySoeLoqwVz8VLMc5      # 秘钥
-  path: baidu_urls.txt   # 文本文档的地址， 新链接会保存在此文本文档里
+  path: baidu_urls.txt   # 文本文档的地址,  新链接会保存在此文本文档里
 
 # 搜索插件 npm install hexo-generator-search --save
 search:
@@ -164,8 +167,8 @@ neat_js:
 
 # 固定文章地址插件  hexo-abbrlink config
 abbrlink:
-  alg: crc16 #算法选项：crc16、crc32，区别见之前的文章，这里默认为crc16丨crc32比crc16复杂一点，长一点
-  rep: dec #输出进制：十进制和十六进制，默认为10进制。丨dec为十进制，hex为十六进制
+  alg: crc16 #算法选项：crc16、crc32, 区别见之前的文章, 这里默认为crc16丨crc32比crc16复杂一点, 长一点
+  rep: dec #输出进制：十进制和十六进制, 默认为10进制。丨dec为十进制, hex为十六进制
 
 # 图片懒加载   npm install hexo-lazyload-image --save
 lazyload:
@@ -177,8 +180,8 @@ lazyload:
 baidu_url_submit:
   count: 100 # 提交最新的一个链接
   host: blog.code520.com.cn # 在百度站长平台中注册的域名
-  token: ySoeLoqwVz8VLMc5 # 请注意这是您的秘钥， 所以请不要把博客源代码发布在公众仓库里!
-  path: baidu_urls.txt # 文本文档的地址， 新链接会保存在此文本文档里
+  token: ySoeLoqwVz8VLMc5 # 请注意这是您的秘钥,  所以请不要把博客源代码发布在公众仓库里!
+  path: baidu_urls.txt # 文本文档的地址,  新链接会保存在此文本文档里
 
 # 看板娘
 ## 默认支持tororo(白色猫咪)
