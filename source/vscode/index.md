@@ -1,8 +1,6 @@
 ---
 title: vscode
 date: 2021-12-25 19:40:46
-type: 'vscode'
-layout: 'vscode'
 ---
 
 ## 打造极致的开发环境

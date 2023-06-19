@@ -10,20 +10,7 @@
                         <% if (theme.subtitle.enable) { %>
                             <span id="subtitle"></span>
                             <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
-                            <script>
-                                var typed = new Typed("#subtitle", {
-                                    strings: [
-                                        <% theme.subtitle.sub.forEach(function(item){%>
-                                        "<%= item %>",
-                                        <% }) %>
-                                    ],
-                                    startDelay: <%= theme.subtitle.startDelay %>,
-                                    typeSpeed: <%= theme.subtitle.typeSpeed %>,
-                                    loop: <%= theme.subtitle.loop %>,
-                                    backSpeed: <%= theme.subtitle.backSpeed %>,
-                                    showCursor: <%= theme.subtitle.showCursor %>
-                                });
-                            </script>
+                            <script></script>
                         <% } else { %>
                             <%= config.description %>
                         <% } %>

@@ -56,8 +56,8 @@ menu:
       - name: 友链监测
         url: /supervise
         icon: fa fa-desktop
-  meta:
-    icon: fas fa-link
+  other:
+    icon: fa fa-light fa-heart
     children:
       - name: cmd
         url: /cmd
@@ -65,9 +65,9 @@ menu:
       - name: ouaan
         url: /ouaan
         icon: fab fa-freebsd
-      # - name: chat
-      #   url: /chat
-      #   icon: fab fa-twitch
+      - name: Sponsor
+        url: /sponsor
+        icon: fa fa-heart
       - name: vim
         url: /vim
         icon: fas fa-code-branch
@@ -585,7 +585,7 @@ visiterMap:
 # ICP备案信息尾部显示
 icp:
   enable: true
-  url: https://beian.miit.gov.cn/ # 备案链接
+  url: https://beian.miit.gov.cn # 备案链接
   text: ICP 鄂ICP备2021004865号-2 # 备案信息
 
 # 又拍联盟图标
