@@ -35,8 +35,8 @@ menu:
         url: /journal
         icon: fas fa-cogs
       - name: 打赏 # 日志
-        url: /rewardModal
-        icon: fas fa-image
+        url: /sponsor
+        icon: fa fa-light fa-heart
   留言:
     url: /contact
     id: contact
@@ -57,7 +57,7 @@ menu:
         url: /supervise
         icon: fa fa-desktop
   other:
-    icon: fa fa-light fa-heart
+    icon: fa fa-light fa-align-left
     children:
       - name: cmd
         url: /cmd
@@ -65,9 +65,6 @@ menu:
       - name: ouaan
         url: /ouaan
         icon: fab fa-freebsd
-      - name: Sponsor
-        url: /sponsor
-        icon: fa fa-heart
       - name: vim
         url: /vim
         icon: fas fa-code-branch
@@ -124,7 +121,7 @@ dream:
   enable: true
   showTitle: true
   title: 人生格言
-  text: 被逼到墙角然后欣赏自己谋求生路, 冲出去又发现歧路蔓延, 但终点不远却暗色, 选择直线是我的风格, 哪怕双脚离地被挂在荆棘上, 但冷静会让人退缩, 所以装分卖傻绕行之不让人察觉我这几年的伤心, 暂时我要的生活不是这样的, 但我决定要干什么都会很像样的, 别劝我, 我无悔, 为理想坚持吧,哈.
+  text: Technology changes lives, All is for consistent.
 
 # 加载动画
 loading:
@@ -208,14 +205,15 @@ socialLink:
   enable: true
   github: https://github.com/jokereven
   twitter: https://twitter.com/0xjokereven
-  bilibili: https://space.bilibili.com/2104605936
   rss: true # true、false
 
-  # qq: 2178066226
-  email: zjing125.cn@gmail.com
+  bilibili: https://space.bilibili.com/2104605936
   # weibo: https://weibo.com/u/7582898613
-  # zhihu: https://www.zhihu.com/people/jokereven
-  # facebook: https://www.facebook.com/profile.php?id=100076069135481
+  zhihu: https://www.zhihu.com/people/jokereven
+
+  qq: 3440681909
+  email: zjing125.cn@gmail.com
+  # facebook: https://www.facebook.com/profile.php?id=
 
 # Whether to activate the Post TOC, and Configure which title types are supported by TOC support.
 # You can add `toc: false` to the Front-matter of a post to turn off the TOC.
@@ -279,8 +277,8 @@ clicklove:
 # 在”关于”页面中配置个人信息, 包括头像、职业和个人介绍.
 profile:
   avatar: /medias/avatar.jpg # 头像
-  career: 🎓 Gopher # 职业
-  introduction: 你要知道,人没有欲望就没有弱点。弱点,永远在想得到某样东西的路上。 # 介绍
+  career: 🎓 Front-end developer / Web3 developer. # 职业
+  introduction: All is for consistent. # 介绍
 
 # config my projects informations in about page.
 # If you don't want to display this `My Projects` content, you can deactivate or delete this configuration.
@@ -301,7 +299,7 @@ myProjects:
     Low code platform:
       icon: fas fa-file-alt
       iconBackground: 'linear-gradient(to bottom right, #A5C0DD 0%, #EBD8B2 100%)'
-      url: https://github.com/jokereven/gin_web
+      url: https://github.com/jokereven/2win19virus
       desc: An Low code using React
 
 # config my skills informations in about page.
