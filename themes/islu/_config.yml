@@ -11,7 +11,7 @@ menu:
         url: /tags
         icon: fas fa-tags
       - name: 分类
-        url: /cateies
+        url: /categories
         icon: fas fa-bookmark
       - name: 随笔
         url: /categories/随笔/
@@ -56,7 +56,7 @@ menu:
       - name: 友链监测
         url: /supervise
         icon: fa fa-desktop
-  other:
+  o:
     icon: fa fa-light fa-align-left
     children:
       - name: cmd
@@ -68,12 +68,9 @@ menu:
       - name: vim
         url: /vim
         icon: fas fa-code-branch
-  universe:
+  u:
     icon: fas fa-globe-asia
     children:
-      - name: 自动化
-        url: /自动化
-        icon: fas fa-cubes
       - name: vscode
         url: /vscode
         icon: fas fa-code-branch
