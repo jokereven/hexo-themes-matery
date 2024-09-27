@@ -220,6 +220,7 @@ live2d:
 feed:
   type: atom
   path: atom.xml
+  description: feedId:57059006090319872+userId:54775346821551104
   limit: 20
   hub:
   content:
