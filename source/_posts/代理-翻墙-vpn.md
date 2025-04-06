@@ -1,7 +1,7 @@
 ---
 title: 代理
-author: 周靖
-img: medias/featureimages/17.jpg
+author: joker
+img: medias/featureimages/10.jpg
 top: true
 cover: true
 toc: true
@@ -15,7 +15,7 @@ tags:
   - 代理
   - 翻墙
   - vpn
-keywords: 周靖
+keywords: joker
 essay: false
 abbrlink: 5518
 date: 2021-12-21 15:43:17
@@ -39,7 +39,7 @@ https://go.huyun.top/#/knowledge
 
 我的虎云邀请码: https://go.huyun.top/#/register?code=2UShDXl5
 
-## 自建vpn节点
+## 自建 vpn 节点
 
 ### 想要了解更多可以开启代理之后到 Github 搜索 vpn 或 翻墙...
 
@@ -49,7 +49,7 @@ https://go.huyun.top/#/knowledge
 
 我的 vultr 邀请链接: https://www.vultr.com/?ref=9103458
 
-翻墙-科学上网、免费翻墙、免费科学上网、免费自由上网、fanqiang、翻墙梯子、免费软件/方法，一键翻墙浏览器，免费shadowsocks/ss/ssr/v2ray/goflyway账号/节点分享，vps一键搭建翻墙服务器脚本/教程，电脑、手机、iOS、安卓、windows、Mac、Linux、路由器翻墙
+翻墙-科学上网、免费翻墙、免费科学上网、免费自由上网、fanqiang、翻墙梯子、免费软件/方法，一键翻墙浏览器，免费 shadowsocks/ss/ssr/v2ray/goflyway 账号/节点分享，vps 一键搭建翻墙服务器脚本/教程，电脑、手机、iOS、安卓、windows、Mac、Linux、路由器翻墙
 
 ## 通过浏览器插件翻墙
 

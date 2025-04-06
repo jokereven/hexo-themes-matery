@@ -8,7 +8,7 @@ subtitle: 0xjokereven #这是网站副标题subtitle
 # 下面两个description, keywords, 需要填上, 如果想让搜索引擎收录, 这个做SEO优化必不可忽视的两个属性
 description: 主要记录生活的点点滴滴, 分享学习上的经验知识, 以求在茫茫人海中留下些许足迹. #网站描述
 keywords: [
-    周靖,
+    joker,
     Web3,
     FrontEnd,
     BackEnd,
@@ -25,7 +25,7 @@ keywords: [
     jokereven,
     独立开发者,
   ] #网站的关键词
-author: 周靖 #作者, 文章版权所显示的
+author: joker #作者, 文章版权所显示的
 language: zh-CN #网站语言, 不填写, 默认为英文
 timezone: #时区, 可以不填写
 
@@ -127,10 +127,10 @@ deploy:
   - type: baidu_url_submitter # 若开启百度主动提交则可取消注释
 
 baidu_url_submitter:
-  count: 120              # 提交最新的多少个链接
-  host: blog.code520.com.cn    # 在百度站长平台中添加的域名
-  token: ySoeLoqwVz8VLMc5      # 秘钥
-  path: baidu_urls.txt   # 文本文档的地址,  新链接会保存在此文本文档里
+  count: 120 # 提交最新的多少个链接
+  host: blog.code520.com.cn # 在百度站长平台中添加的域名
+  token: ySoeLoqwVz8VLMc5 # 秘钥
+  path: baidu_urls.txt # 文本文档的地址,  新链接会保存在此文本文档里
 
 # 搜索插件 npm install hexo-generator-search --save
 search:
